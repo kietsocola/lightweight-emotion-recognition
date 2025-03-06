@@ -1,4 +1,6 @@
-\subsection{Xử lý dữ liệu bị thiếu}
+\textbf{Có.}. Tác giả đã thực hiện nhiều bước tiền xử lý dữ liệu để đảm bảo chất lượng đầu vào cho mô hình, bao gồm:
+
+\textbf{\large Xử lý dữ liệu bị thiếu}
 \begin{itemize}
     \item Các cột có quá nhiều giá trị bị thiếu (>40\%) như \textit{PoolQC, MiscFeature, Alley, Fence, FireplaceQu} bị loại bỏ.
     \item Các cột còn lại được điền giá trị phù hợp, ví dụ:
@@ -8,17 +10,17 @@
     \end{itemize}
 \end{itemize}
 
-\subsection{Xử lý outlier (giá trị ngoại lai)}
+\textbf{\large Xử lý outlier (giá trị ngoại lai)}
 \begin{itemize}
     \item Hai giá trị có diện tích sàn lớn (\textit{GrLivArea}) nhưng giá bán thấp bị loại bỏ vì chúng làm méo mô hình.
 \end{itemize}
 
-\subsection{Biến đổi dữ liệu}
+\textbf{\large Biến đổi dữ liệu}
 \begin{itemize}
     \item Áp dụng \textbf{log transformation} lên giá nhà (\textit{SalePrice}) để biến đổi phân phối lệch phải thành phân phối chuẩn hơn.
 \end{itemize}
 
-\subsection{Xử lý multicollinearity (đa cộng tuyến)}
+\textbf{\large Xử lý multicollinearity (đa cộng tuyến)}
 \begin{itemize}
     \item Một số biến có tương quan cao bị loại bỏ để tránh dư thừa, ví dụ:
     \begin{itemize}
@@ -27,12 +29,12 @@
     \end{itemize}
 \end{itemize}
 
-\subsection{Mã hóa dữ liệu dạng danh mục (categorical encoding)}
+\textbf{\large Mã hóa dữ liệu dạng danh mục (categorical encoding)}
 \begin{itemize}
     \item Dữ liệu dạng danh mục được mã hóa thành dạng số để máy học có thể xử lý.
 \end{itemize}
 
-\subsection{Chuyển đổi dữ liệu lệch (skewed features)}
+\textbf{\large Chuyển đổi dữ liệu lệch (skewed features)}
 \begin{itemize}
     \item Áp dụng \textbf{Box-Cox transformation} cho các biến có độ lệch lớn (>0.75) để giúp mô hình hoạt động ổn định hơn.
 \end{itemize}

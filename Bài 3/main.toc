@@ -7,16 +7,7 @@
 \contentsline {section}{\numberline {6}Kết quả đạt được là gì? Độ đo?}{4}{section.6}%
 \contentsline {section}{\numberline {7}Có bài survey về nó không?}{4}{section.7}%
 \contentsline {section}{\numberline {8}Dữ liệu có được tiền xử lý trước không?}{4}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Xử lý dữ liệu bị thiếu}{4}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Xử lý outlier (giá trị ngoại lai)}{4}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Biến đổi dữ liệu}{4}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Xử lý multicollinearity (đa cộng tuyến)}{4}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Mã hóa dữ liệu dạng danh mục (categorical encoding)}{4}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Chuyển đổi dữ liệu lệch (skewed features)}{5}{subsection.8.6}%
 \contentsline {section}{\numberline {9}Kết quả được so sánh với các nghiên cứu trước như thế nào?}{5}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Phân loại đặc trưng quan trọng}{5}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Tác động của vị trí}{5}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}So sánh mô hình}{5}{subsection.9.3}%
 \contentsline {section}{\numberline {10}Có thử nghiệm trên các tập dữ liệu khác không, hay chỉ trên Ames Housing?}{5}{section.10}%
 \contentsline {section}{\numberline {11}Kết quả nghiên cứu có thể áp dụng vào thực tế không?}{6}{section.11}%
 \contentsline {section}{\numberline {12}Có đề xuất nào để cải thiện mô hình không?}{6}{section.12}%
