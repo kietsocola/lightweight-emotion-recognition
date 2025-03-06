@@ -1,0 +1,20 @@
+Có, nghiên cứu này có thể mở rộng hoặc áp dụng vào các bộ dữ liệu khác nhờ phương pháp luận linh hoạt (phân tích tương quan, kỹ thuật đặc trưng, hồi quy LASSO, Gradient Boosting, XGBoost). Các công cụ như scikit-learn và pandas dễ dàng triển khai trên dữ liệu mới. Ví dụ, nó có thể dùng cho giá nhà ở TP. Hồ Chí Minh hoặc New York nếu có đặc trưng tương tự (diện tích, chất lượng, vị trí). Tuy nhiên, cần điều chỉnh: phân tích EDA để xác định đặc trưng quan trọng (như hướng nhà ở Việt Nam), chuẩn hóa dữ liệu (đơn vị tiền tệ, diện tích), và thử nghiệm biến đổi phân phối giá nếu khác Ames. Thách thức nằm ở việc thiếu dữ liệu thời gian và sự khác biệt giữa các thị trường (ví dụ: biến động mạnh ở California). Nếu vượt qua được, nghiên cứu sẽ áp dụng tốt cho nhiều bối cảnh bất động sản. Cụ thể:
+\begin{itemize}
+    \item \textbf{Khả năng mở rộng:} 
+    \begin{itemize}
+        \item Phương pháp luận (hồi quy, EDA) linh hoạt, áp dụng được cho dữ liệu mới.
+        \item Công cụ Python (scikit-learn, pandas) dễ triển khai.
+        \item Đặc trưng khái quát (diện tích, vị trí) phù hợp nhiều thị trường.
+    \end{itemize}
+    \item \textbf{Điều chỉnh cần thiết:} 
+    \begin{itemize}
+        \item Phân tích EDA để xác định đặc trưng đặc thù (hướng nhà, phong thủy).
+        \item Chuẩn hóa dữ liệu (đơn vị tiền, diện tích) cho phù hợp.
+        \item Thử nghiệm biến đổi phân phối giá nếu khác Ames.
+    \end{itemize}
+    \item \textbf{Thách thức:} 
+    \begin{itemize}
+        \item Thiếu dữ liệu thời gian hạn chế phân tích xu hướng.
+        \item Sự khác biệt giữa các thị trường (ví dụ: California, Tokyo) đòi hỏi mô hình phức tạp hơn.
+    \end{itemize}
+\end{itemize}
