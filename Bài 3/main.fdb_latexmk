@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1741269178.59063 "d:/Workspace/nckh/DO_AN_PPNCKH/Bài 3/main.tex" "main.pdf" "main" 1741269179.9439 0
+["pdflatex"] 1741316223.65525 "d:/Workspace/nckh/DO_AN_PPNCKH/Bài 3/main.tex" "main.pdf" "main" 1741316224.88738 0
   "C:/Users/lam46/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1741267308 88371 b965f57369ed322039596060d18f4416 ""
   "C:/Users/lam46/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1741267403 11548 9c44ab4fc545e2f1a3a33e2e070f2a61 ""
   "C:/Users/lam46/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1741247311 12036088 060cde2b9df67a6de9780cd901374477 ""
@@ -88,16 +88,16 @@
   "chapters/kiet/dictionary.tex" 1741238281 1519 c4739b2012d1b943ad505e24d2dd13b4 ""
   "chapters/kiet/ketquavadodo.tex" 1741238281 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/kiet/paper.tex" 1741238281 700 dc046c80abcd18fad603252581e35e39 ""
-  "chapters/kiet/sosanh_nghiencuu.tex" 1741269142 1374 0a2e8e833dbc3fe029d417077c6f7c14 ""
+  "chapters/kiet/sosanh_nghiencuu.tex" 1741316175 1356 82c18ac4ce2003d1ffbc350b6c2bbb8b ""
   "chapters/kiet/thunghiemkhac.tex" 1741267593 638 f8f3a70beb7d9b84d5346077b767b3a3 ""
-  "chapters/kiet/xuly_dulieu.tex" 1741269177 2169 cf343d3838ab96bd723de16f4ba669a7 ""
+  "chapters/kiet/xuly_dulieu.tex" 1741316223 2127 cc7afaf034162c2c331dbd47bbfabcee ""
   "d:/Workspace/nckh/DO_AN_PPNCKH/Bài 3/main.tex" 1741267736 2250 16db5c3a9b597fa0fd87d191c2d1f640 ""
   "header/title.tex" 1741238281 1008 6fd138a9752c3a0436da4954dd247142 ""
   "img/logo.png" 1741238281 980088 8b155067a7d57ad2a10eba33aef752ae ""
-  "main.aux" 1741269179 2250 c4b96593703250ff9719d924c68267b7 "pdflatex"
-  "main.out" 1741269179 3716 26eee5367318f839b1468d7e0150c474 "pdflatex"
+  "main.aux" 1741316224 2250 c4b96593703250ff9719d924c68267b7 "pdflatex"
+  "main.out" 1741316224 3716 26eee5367318f839b1468d7e0150c474 "pdflatex"
   "main.tex" 1741267736 2250 16db5c3a9b597fa0fd87d191c2d1f640 ""
-  "main.toc" 1741269179 1447 565f232bdd9ad0fad1c23a7bbe4bd237 "pdflatex"
+  "main.toc" 1741316224 1447 565f232bdd9ad0fad1c23a7bbe4bd237 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
