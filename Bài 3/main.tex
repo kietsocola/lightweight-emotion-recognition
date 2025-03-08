@@ -7,11 +7,26 @@
 \usepackage[utf8]{vietnam}
 \usepackage{amsmath}
 \usepackage{enumitem}
+\usepackage{tikz} % Thêm gói tikz để vẽ khung
 
 \begin{document}
 
-% Trang bìa
-\input{header/title}
+% Trang bìa với khung và nội dung
+\begin{titlepage}
+    \begin{tikzpicture}[remember picture, overlay]
+        % Vẽ khung trang trí gần mép trang
+        \draw[thick, rounded corners, draw=blue!50!black] 
+            ([shift={(1cm,-1cm)}]current page.north west) 
+            rectangle 
+            ([shift={(-1cm,1cm)}]current page.south east);
+        % Vẽ khung bên trong (tùy chọn)
+        \draw[dashed, draw=red!70!black] 
+            ([shift={(1.5cm,-1.5cm)}]current page.north west) 
+            rectangle 
+            ([shift={(-1.5cm,1.5cm)}]current page.south east);
+    \end{tikzpicture}
+    \input{header/title} % Gọi nội dung từ header/title.tex
+\end{titlepage}
 
 \newpage
 
@@ -51,7 +66,7 @@
 \input{chapters/kiet/ketquavadodo}
 
 \section{Có bài survey về nó không?}
-\input{chapters/kiet/baitoanlienquan}
+\input{chapters/kiet/bai_survey_ve_no}
 
 \section{Dữ liệu có được tiền xử lý trước không?}
 \input{chapters/kiet/xuly_dulieu}
