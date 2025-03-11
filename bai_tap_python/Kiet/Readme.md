@@ -28,3 +28,18 @@
 - Tiếp tục nghiên cứu về xử lý dữ liệu trong Python.
 - Làm các bài tập tiếp theo mà thầy giao
 
+## Ngày 11/03/2025
+
+### Hành trình hôm nay
+- Cấu hình và chạy Jupyter Notebook.
+- Làm bài tập số 2: làm quen với mảng, lệnh nhập, câu lệnh if else.
+
+### Kết quả
+- Hiểu rõ hơn về Jupyter.
+- Hiểu rõ hơn về mảng, lệnh nhập, câu lệnh if else.
+
+### Kế hoạch tiếp theo
+- Hoàn thành bài tập số 3 của tuần trước vì làm chưa tốt
+- Làm bài tập 4 của tuần này
+
+
