@@ -16,4 +16,21 @@
 
 ### Kế hoạch tiếp theo
 
-* Làm lại bài tập số 3
+Làm lại bài tập số 3
+
+
+## Ngày 11/03/2025
+
+### Hành trình hôm nay
+
+- Làm lại bài tập số 3
+- Tìm kiếm data cho đồ án cuối
+
+### Kết quả
+
+- Làm xong phần bài tập số 3 của mình
+
+### Kế hoạch tiếp theo
+
+* Tiếp tục hoàn thiện, chỉnh sửa lại bài tập số 3
+* Tìm hiểu, làm bài tập số 4, đồ án cuối
