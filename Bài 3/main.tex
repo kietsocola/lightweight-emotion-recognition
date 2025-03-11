@@ -50,39 +50,72 @@
 \tableofcontents
 \newpage
 
-\section{Paper của cơ sở dữ liệu}
-\input{chapters/kiet/paper}
+% Phần 1: Title
+\begin{center}
+    \textbf{\Large Khảo sát về Tập Dữ liệu Ames Housing: Nguồn gốc, Ứng dụng và Kết quả} \\
+    \vspace{0.5cm}
+    \normalsize Tác giả: Văn Tuấn Kiệt$^1$, Mai Phúc Lâm$^1$, Nguyễn Đức Duy Lâm$^1$, Nguyễn Hữu Lộc$^1$ \\
+    \vspace{0.2cm}
+    $^1$Trường Đại học Sài Gòn,
+    \vspace{0.2cm}
+    Ngày: 11 tháng 3 năm 2025 \\
+    \vspace{0.2cm}
+\end{center}
 
-\section{Dữ liệu ở đâu}
-\input{chapters/kiet/dataWhere}
+% Phần 2: Tóm tắt
+\section*{Tóm tắt}
+Tập dữ liệu Ames Housing, được giới thiệu bởi De Cock (2011), là một nguồn tài nguyên quan trọng trong lĩnh vực thống kê và học máy, thay thế cho tập dữ liệu Boston Housing đã lỗi thời. Bài khảo sát này xem xét nguồn gốc của tập dữ liệu, vị trí lưu trữ, từ điển dữ liệu, các bài toán liên quan, kết quả đạt được và các nghiên cứu khảo sát liên quan. Kết quả cho thấy Ames Housing cung cấp một nền tảng phong phú cho các bài toán hồi quy, với khả năng giải thích lên đến 92\% biến thiên giá nhà trong các mô hình phức tạp. \\
+\textbf{Từ khóa:} Ames Housing, hồi quy đa biến, dữ liệu bất động sản, thống kê giáo dục.
 
-\section{Từ điển dữ liệu}
-\input{chapters/kiet/dictionary}
+% Phần 3: Giới thiệu
+\section{Giới thiệu}
+Tập dữ liệu Ames Housing được phát triển nhằm khắc phục những hạn chế của tập dữ liệu Boston Housing (Harrison \& Rubinfeld, 1978), vốn có dữ liệu từ thập niên 1970 với quy mô nhỏ (506 quan sát, 14 biến)~\cite{harrison1978}. De Cock (2011) đã giới thiệu tập dữ liệu này trong bài báo “Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project” trên \textit{Journal of Statistics Education}~\cite{decock2011}. Với 2930 quan sát và 80 biến, Ames Housing đã trở thành một công cụ phổ biến trong giáo dục thống kê và các cuộc thi học máy như Kaggle Housing Price Prediction~\cite{kaggle2016}. \\
+Bài khảo sát này nhằm trả lời các câu hỏi: (1) Paper của cơ sở dữ liệu ở đâu? (2) Dữ liệu ở đâu? (3) Từ điển dữ liệu nằm ở đâu? (4) Các bài toán liên quan là gì? (5) Kết quả và độ đo ra sao? (6) Có bài khảo sát nào về nó không?
 
-\section{Các bài toán liên quan}
-\input{chapters/kiet/baitoanlienquan}
+% Phần 4: Nguồn gốc và Vị trí của Tập Dữ liệu
+\section{Nguồn gốc và Vị trí của Tập Dữ liệu}
 
-\section{Kết quả đạt được là gì? Độ đo?}
-\input{chapters/kiet/ketquavadodo}
+\subsection{Paper của cơ sở dữ liệu}
+Bài báo gốc được công bố trong \textit{Journal of Statistics Education}, Volume 19, Number 3 (2011) bởi Dean De Cock từ Truman State University~\cite{decock2011}. Thông tin trích dẫn đầy đủ như sau: \\
+De Cock, D. (2011). Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project. \textit{Journal of Statistics Education}, 19(3). \\
+Đường dẫn ban đầu được cung cấp bởi tác giả là \url{https://jse.amstat.org/v19n3/decock.pdf}. Tuy nhiên, do liên kết này không còn hoạt động tính đến ngày 11 tháng 3 năm 2025, bài báo có thể được truy cập thông qua một kho lưu trữ thay thế trên GitHub tại: \url{https://github.com/webartifex/ames-housing/blob/main/static/paper.pdf}~\cite{github2025}. Nguồn này được duy trì bởi một bên thứ ba và chứa bản sao của bài báo gốc.
 
-\section{Có bài survey về nó không?}
-\input{chapters/kiet/bai_survey_ve_no}
+\subsection{Dữ liệu ở đâu?}
 
-\section{Dữ liệu có được tiền xử lý trước không?}
-\input{chapters/kiet/xuly_dulieu}
+Tập dữ liệu được cung cấp dưới dạng các file sau:
 
-\section{Kết quả được so sánh với các nghiên cứu trước như thế nào?}
-\input{chapters/kiet/sosanh_nghiencuu}
+\begin{itemize}[label=$\bullet$]
+    \item \textbf{Tệp Excel:} \href{https://jse.amstat.org/v19n3/decock/AmesHousing.xls}{https://jse.amstat.org/v19n3/decock/AmesHousing.xls}
+    \item \textbf{Tệp văn bản:} \href{https://jse.amstat.org/v19n3/decock/AmesHousing.txt}{https://jse.amstat.org/v19n3/decock/AmesHousing.txt}
+\end{itemize}
 
-\section{Có thử nghiệm trên các tập dữ liệu khác không, hay chỉ trên Ames Housing?}
-\input{chapters/kiet/thunghiemkhac}
+Dữ liệu bao gồm 2930 giao dịch bán nhà ở Ames, Iowa từ 2006--2010, sau khi loại bỏ các giao dịch không phù hợp với mô hình (De Cock, 2011, trang 4).
 
-\section{Kết quả nghiên cứu có thể áp dụng vào thực tế không?}
-\input{chapters/kiet/co_ap_dung_thuc_te_khong}
+\subsection{Từ điển dữ liệu}
 
-\section{Có đề xuất nào để cải thiện mô hình không?}
-\input{chapters/kiet/co_de_xuat_cai_thien_mo_hinh_khong}
+Từ điển dữ liệu được cung cấp chi tiết dưới dạng tài liệu:
 
-\section{Nghiên cứu này có thể mở rộng hoặc ứng dụng vào bộ dữ liệu khác không?}
-\input{chapters/kiet/co_the_mo_rong_hoac_ung_dung_bo_du_lieu_khac_khong}
+\begin{itemize}[label=$\bullet$]
+    \item \href{https://jse.amstat.org/v19n3/decock/DataDocumentation.txt}{https://jse.amstat.org/v19n3/decock/DataDocumentation.txt}
+\end{itemize}
+
+Tài liệu này mô tả 80 biến, chia thành 23 biến định danh (\textit{nominal}), 23 biến thứ tự (\textit{ordinal}), 14 biến tỷ lệ (\textit{discrete}), và 20 biến tỷ lệ (\textit{continuous}), chẳng hạn như diện tích tầng 1 (\textit{Lot Area}), diện tích sống trên tầng (\textit{Gr Liv Area}), và số xe trong nhà để xe (\textit{Garage Cars}) (De Cock, 2011, trang 3).
+
+% Phần 5: Tham chiếu
+\begin{thebibliography}{9}
+
+\bibitem{harrison1978}
+Harrison, D., \& Rubinfeld, D. L. (1978). Hedonic Housing Prices and the Demand for Clean Air. \textit{Journal of Environmental Economics and Management}, 5, 81--102.
+
+\bibitem{decock2011}
+De Cock, D. (2011). Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project. \textit{Journal of Statistics Education}, 19(3).
+
+\bibitem{kaggle2016}
+Kaggle. (2016). House Prices - Advanced Regression Techniques. Truy cập tại: \url{https://www.kaggle.com/c/house-prices-advanced-regression-techniques}.
+
+\bibitem{github2025}
+De Cock, D. (2011). Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project. Bản sao lưu trữ trên GitHub. Truy cập tại: \url{https://github.com/webartifex/ames-housing/blob/main/static/paper.pdf}.
+
+\end{thebibliography}
+
 \end{document}
