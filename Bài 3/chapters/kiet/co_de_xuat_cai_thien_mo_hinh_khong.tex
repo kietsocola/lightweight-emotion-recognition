@@ -1,9 +1,0 @@
-Để cải thiện mô hình, có thể xem xét các hướng sau:  
-\begin{itemize}
-    \item \textbf{Tăng kích thước và đa dạng dữ liệu:} Sử dụng tập dữ liệu lớn hơn từ nhiều khu vực để tăng tính khái quát, đồng thời bổ sung dữ liệu thời gian để phản ánh xu hướng giá nhà.  
-    \item \textbf{Cải thiện đặc trưng vị trí:} Các đặc trưng nhóm "vị trí" (như \texttt{Neighborhood}) có tương quan thấp hơn kỳ vọng, nên thu thập thêm thông tin (khoảng cách đến tiện ích, giao thông) và dùng kỹ thuật mã hóa nâng cao như target encoding.  
-    \item \textbf{Tối ưu hóa mô hình:} Stacked Model tuy đạt điểm cao trên Kaggle nhưng chậm và kém hiệu quả trong kiểm tra chéo; có thể thử weighted averaging hoặc tinh chỉnh siêu tham số.  
-    \item \textbf{Xử lý ngoại lai và độ lệch:} Dùng phương pháp như Isolation Forest để phát hiện ngoại lai và thử biến đổi Yeo-Johnson thay vì Box-Cox.  
-    \item \textbf{Thêm yếu tố bên ngoài:} Kết hợp các biến kinh tế (lãi suất, GDP) và xã hội (tỷ lệ tội phạm) để mô hình sát thực tế hơn.  
-\end{itemize}
-Những cải tiến này sẽ tăng độ chính xác và tính thực tiễn của mô hình.
