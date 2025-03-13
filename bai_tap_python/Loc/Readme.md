@@ -53,10 +53,12 @@ Làm lại bài tập số 3
 ### Hành trình hôm nay
 
 - Làm website cá nhân phần my project
+- Format lại bài tập 3 rồi nộp
 
 ### Kết quả
 
 - Làm xong website cá nhân phần my project, có hiệu ứng đẹp, rõ ràng, nhấn mạnh nội dung mong muốn
+- Xong format, đẹp
 
 ### Kế hoạch tiếp theo
 
