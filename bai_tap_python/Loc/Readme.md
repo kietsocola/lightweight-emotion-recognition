@@ -18,7 +18,6 @@
 
 Làm lại bài tập số 3
 
-
 ## Ngày 11/03/2025
 
 ### Hành trình hôm nay
@@ -34,3 +33,34 @@ Làm lại bài tập số 3
 
 * Tiếp tục hoàn thiện, chỉnh sửa lại bài tập số 3
 * Tìm hiểu, làm bài tập số 4, đồ án cuối
+
+## Ngày 12/03/2025
+
+### Hành trình hôm nay
+
+- Nghiên cứu chia việc cho đồ án cuối
+
+### Kết quả
+
+- Chia việc hoàn tất
+
+### Kế hoạch tiếp theo
+
+* Tiếp tục làm website cá nhân hoàn thiện
+
+## Ngày 13/03/2025
+
+### Hành trình hôm nay
+
+- Làm website cá nhân phần my project
+
+### Kết quả
+
+- Làm xong website cá nhân phần my project, có hiệu ứng đẹp, rõ ràng, nhấn mạnh nội dung mong muốn
+
+### Kế hoạch tiếp theo
+
+* Nghiên cứu cho project cuối
+* Làm bài tập python
+* Bổ sung phần contact me trong personal website
+* Bổ sung file pdf cv
