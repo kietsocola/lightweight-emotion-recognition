@@ -42,4 +42,15 @@
 - Hoàn thành bài tập số 3 của tuần trước vì làm chưa tốt
 - Làm bài tập 4 của tuần này
 
+## Ngày 12/03/2025
 
+### Hành trình hôm nay
+- Làm phần 3 của bài tập 3 của tuần trước, tốt lắm nha
+- Đọc và kiểm tra bài 4
+### Kết quả
+- Hoàn thành bài tập 3
+- Hiểu hơn về một số bài toán như hồi quy đa biến, xử lý biến phân loại, dự đoán giá nhà
+
+### Kế hoạch tiếp theo
+- Làm phần khung sườn của báo cáo bài báo cuối kì
+- Tìm hiểu các kiến thức như CNN nhẹ, data augmentation, GAN
