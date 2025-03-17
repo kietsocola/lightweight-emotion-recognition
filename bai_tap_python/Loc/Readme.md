@@ -66,3 +66,20 @@ Làm lại bài tập số 3
 * Làm bài tập python
 * Bổ sung phần contact me trong personal website
 * Bổ sung file pdf cv
+
+## Ngày 17/03/2025
+
+### Hành trình hôm nay
+
+- Làm bài tập python hàng ngày
+
+### Kết quả
+
+- Làm xong bài tập hàng ngày lab 1
+
+### Kế hoạch tiếp theo
+
+* Nghiên cứu cho project cuối
+* Làm bài tập python
+* Bổ sung phần contact me trong personal website
+* Bổ sung file pdf cv
