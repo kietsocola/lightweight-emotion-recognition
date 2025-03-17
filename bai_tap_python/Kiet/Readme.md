@@ -67,3 +67,15 @@
 ### Kế hoạch tiếp theo
 - Làm phần khung sườn của báo cáo bài báo cuối kì
 - Tìm hiểu các kiến thức như CNN nhẹ, data augmentation, GAN
+
+## Ngày 21/03/2025
+
+### Hành trình hôm nay
+- Thực hành rút trích và phân tích dữ liệu EDA trên tập Iris
+### Kết quả
+- Hiểu tập Iris là gì
+- Hiểu một số đặc điểm sau quá trình phân tích nhờ HeatMap, Biểu đồ phân tán, một số thư viện như Pandas, Seaborn, Matplotlib
+
+### Kế hoạch tiếp theo
+- Làm phần khung sườn của báo cáo bài báo cuối kì
+- Tìm hiểu các kiến thức như CNN nhẹ, data augmentation, GAN
