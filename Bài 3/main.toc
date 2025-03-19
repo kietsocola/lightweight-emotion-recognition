@@ -4,3 +4,13 @@
 \contentsline {subsection}{\numberline {2.1}Paper của cơ sở dữ liệu}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Dữ liệu ở đâu?}{4}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Từ điển dữ liệu}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Các bài toán liên quan}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Hồi quy đa biến}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Lựa chọn mô hình}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Xử lý biến phân loại}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Dự đoán giá nhà}{5}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Kết quả Đạt được và Độ đo}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Kết quả}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Độ đo}{6}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Các Bài Khảo sát Liên quan}{7}{section.5}%
+\contentsline {section}{\numberline {6}Thảo luận và kết luận}{7}{section.6}%
