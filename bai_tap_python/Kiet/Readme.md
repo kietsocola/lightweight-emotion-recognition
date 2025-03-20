@@ -52,5 +52,18 @@
 - Hiểu hơn về một số bài toán như hồi quy đa biến, xử lý biến phân loại, dự đoán giá nhà
 
 ### Kế hoạch tiếp theo
+- Tiếp tục code python để quen cú pháp
+- Làm hàm kiểm tra số nguyên tố
+
+## Ngày 17/03/2025
+
+### Hành trình hôm nay
+- Tiếp tục code python để quen cú pháp
+- Làm hàm kiểm tra số nguyên tố
+### Kết quả
+- Hoàn thành hàm kiểm tra số nguyên tố
+- Học cách duyệt mảng
+
+### Kế hoạch tiếp theo
 - Làm phần khung sườn của báo cáo bài báo cuối kì
 - Tìm hiểu các kiến thức như CNN nhẹ, data augmentation, GAN
