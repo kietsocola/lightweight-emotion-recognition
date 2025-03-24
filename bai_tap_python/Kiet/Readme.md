@@ -79,3 +79,13 @@
 ### Kế hoạch tiếp theo
 - Làm phần khung sườn của báo cáo bài báo cuối kì
 - Tìm hiểu các kiến thức như CNN nhẹ, data augmentation, GAN
+
+## Ngày 24/03/2025
+
+### Hành trình hôm nay
+- Đọc 2 bài báo về CNN xử lý ảnh: MobileNet và EfficentNet
+### Kết quả
+- Hiểu cách xử lý ảnh, nhược điểm, ưu điểm của từng bài
+### Kế hoạch tiếp theo
+- Làm EDA cho FER2013
+- Làm phần giới thiệu cho bài báo
