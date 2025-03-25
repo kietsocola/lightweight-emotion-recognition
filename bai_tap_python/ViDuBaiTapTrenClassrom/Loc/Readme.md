@@ -144,3 +144,21 @@ Làm lại bài tập số 3
 * Bổ sung phần contact me trong personal website
 * Bổ sung file pdf cv
 * Tiếp tục làm các phần việc đã chia
+
+
+## Ngày 26/03/2025
+
+### Hành trình hôm nay
+
+- Bổ sung file pdf cv
+
+### Kết quả
+
+- Đã có pdf cv
+
+### Kế hoạch tiếp theo
+
+* Nghiên cứu cho project cuối
+* Làm bài tập python
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm các phần việc đã chia
