@@ -79,3 +79,30 @@
 ### Kế hoạch tiếp theo
 - Làm phần khung sườn của báo cáo bài báo cuối kì
 - Tìm hiểu các kiến thức như CNN nhẹ, data augmentation, GAN
+
+## Ngày 24/03/2025
+
+### Hành trình hôm nay
+- Đọc 2 bài báo về CNN xử lý ảnh: MobileNet và EfficentNet
+- Đọc 1 bài báo về so sánh nhiều phương pháp nhận diện hình ảnh như lightGAN,...
+- Làm phần giới thiệu đề cương
+- Viết code python thay đổi độ sáng của ảnh dựa trên gamma
+### Kết quả
+- Hiểu cách xử lý ảnh, nhược điểm, ưu điểm của từng bài
+- Hiểu ưu nhược điểm của các phương pháp nhận diện ảnh
+- Hiểu cách thay đổi độ sáng dựa trên gamma
+### Kế hoạch tiếp theo
+- Làm EDA cho FER2013
+- Làm phần giới thiệu cho bài báo
+
+## Ngày 25/03/2025
+
+### Hành trình hôm nay
+- Đọc 1 bài báo về so sánh nhiều phương pháp nhận diện hình ảnh như lightGAN,...
+- Làm phần giới thiệu đề cương
+- Viết code python thay đổi độ sáng của ảnh dựa trên gamma
+### Kết quả
+- Hiểu ưu nhược điểm của các phương pháp nhận diện ảnh
+- Hiểu cách thay đổi độ sáng dựa trên gamma
+### Kế hoạch tiếp theo
+- Làm EDA cho FER2013

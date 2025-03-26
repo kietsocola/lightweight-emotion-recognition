@@ -1,7 +1,28 @@
 \section*{GIỚI THIỆU}
 \subsection*{Câu hỏi gợi ý}
-\textbf{Hướng dẫn}
+\textbf{Hướng dẫn} \\
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.45\textwidth]{light_image.png} 
+    \includegraphics[width=0.45\textwidth]{dark_image.png}
+    \caption{So sánh ảnh khuôn mặt trong điều kiện ánh sáng tốt (trái) và ánh sáng yếu (phải).}
+    \label{fig:light_vs_dark}
+\end{figure}
+\textbf{So sánh hiệu quả phương pháp:} Các nghiên cứu gần đây (2020-2025) đã đề xuất nhiều cách tiếp cận cho bài toán FER trong điều kiện ánh sáng yếu, nhưng mỗi phương pháp đều có những hạn chế nhất định. Chẳng hạn, các kỹ thuật dựa trên GAN như EnlightenGAN~\cite{jiang2021enlightengan} đạt độ chính xác cao trong việc tái tạo ảnh ánh sáng tốt, nhưng yêu cầu thời gian huấn luyện dài và tài nguyên tính toán lớn, không phù hợp với các ứng dụng thực tế có hạn chế về phần cứng. Các phương pháp dựa trên Retinex~\cite{zhang2022retinex} cải thiện độ tương phản, nhưng thường làm tăng nhiễu trong ảnh tối, ảnh hưởng đến hiệu suất nhận diện. Ngược lại, phương pháp đề xuất trong nghiên cứu này kết hợp kỹ thuật tăng cường dữ liệu thích ứng với CNN nhẹ (MobileNetV3), vừa đảm bảo hiệu quả tính toán, vừa duy trì độ chính xác trong điều kiện ánh sáng yếu. Bảng~\ref{tab:method_comparison} so sánh hiệu quả giữa các phương pháp này, trong đó phương pháp đề xuất nổi bật nhờ tính đơn giản và khả năng triển khai thực tế.
 
-Ngày nay, công nghệ đã trở thành một yếu tố quan trọng làm thay đổi cách sống, cách nghĩ, cách làm việc và cách tiếp cận văn hóa của con người. Thật vậy, với sự phát triển như vũ bão của công nghệ ở thế kỷ 21, đặc biệt là công nghệ thông tin và truyền thông, viết tắt là ICT, con người đã tạo ra được những công cụ mới phục vụ tốt hơn cho cuộc sống của mình. ICT có mặt ở khắp mọi nơi, mọi lĩnh vực, từ thương mại, y tế, văn hóa, chính trị,... và giáo dục cũng không phải là ngoại lệ. Phải khẳng định rằng, để phát triển đất nước, tất yếu phải phát triển giáo dục, và giáo dục phải đi trước một bước hơn tất cả. Để làm được điều đó, sự hỗ trợ từ ICT dành cho giáo dục là hết sức cần thiết. Từ lâu, các nhà nghiên cứu giáo dục đã nghiên cứu cách thức áp dụng ICT để nâng cao chất lượng giáo dục, đưa công nghệ thâm nhập sâu hơn vào giáo dục, tạo ra các công cụ giáo dục mới, có chất lượng tốt hơn hẳn. Các nghiên cứu đã chỉ ra rằng tầng e-Learning mang lại nhiều lợi ích cho hoạt động giảng dạy bởi việc trợ giúp giảng viên và học viên đạt được những kỹ năng cần thiết cho công việc ở thế kỷ 21 [13][29][12]. Tuy nhiên, việc ứng dụng e-Learning trong các hệ thống học tập trực tuyến vẫn còn nhiều vấn đề phức tạp cần phải nghiên cứu đối với đa số những nhà giáo dục, những chuyên gia trong lĩnh vực này [1]. Tại Việt Nam, e-Learning đã được nghiên cứu và tiếp cận bởi khá nhiều trường đại học. Các trường này đã cố gắng xây dựng cho riêng mình những hệ thống học tập trực tuyến để hỗ trợ cho hoạt động giảng dạy hiện tại hoặc phục vụ đào tạo từ xa. Bên cạnh các thế, chủ yếu do vấn đề tương tác giữa người học với giáo viên và người học với hệ thống. Do vậy, bài toán đặt ra là có thể xây dựng một hệ e-Learning tiếp cận theo hướng thích nghi phù hợp với ngữ cảnh dạy học tại Việt Nam mà cụ thể là áp dụng tại Trường Đại học Sư phạm TPHCM được hay không?
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{Phương pháp} & \textbf{Độ chính xác (\%)} & \textbf{Thời gian huấn luyện} & \textbf{Tài nguyên cần thiết} \\
+        \hline
+        EnlightenGAN (2021) & 85 & Cao & Cao \\
+        Retinex-based (2022) & 78 & Trung bình & Trung bình \\
+        Phương pháp đề xuất & 82 & Thấp & Thấp \\
+        \hline
+    \end{tabular}
+    \caption{So sánh hiệu quả giữa các phương pháp FER trong điều kiện ánh sáng yếu.}
+    \label{tab:method_comparison}
+\end{table}
 
 \textbf{Ghi chú}

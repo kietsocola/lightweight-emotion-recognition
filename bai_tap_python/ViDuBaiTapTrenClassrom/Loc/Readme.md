@@ -83,3 +83,82 @@ Làm lại bài tập số 3
 * Làm bài tập python
 * Bổ sung phần contact me trong personal website
 * Bổ sung file pdf cv
+
+## Ngày 23/03/2025
+
+### Hành trình hôm nay
+
+- Chỉnh sửa lại cấu trúc dự án cho dễ đọc hơn
+- Nghiên cứu chia việc
+
+### Kết quả
+
+- Chia việc hoàn thất
+- Cấu trúc dự án đọc ok hơn
+
+### Kế hoạch tiếp theo
+
+* Nghiên cứu cho project cuối
+* Làm bài tập python
+* Bổ sung phần contact me trong personal website
+* Bổ sung file pdf cv
+* Làm các phần việc đã chia
+
+## Ngày 24/03/2025
+
+### Hành trình hôm nay
+
+- Đã đọc các bài báo liên quan đến đề tài nckh
+- Làm các phần việc đã chia
+
+### Kết quả
+
+- Hiểu được các vấn đề xung quanh đề tài
+- Cấu trúc dự án đọc ok hơn
+
+### Kế hoạch tiếp theo
+
+* Nghiên cứu cho project cuối
+* Làm bài tập python
+* Bổ sung phần contact me trong personal website
+* Bổ sung file pdf cv
+* Tiếp tục làm các phần việc đã chia
+
+## Ngày 25/03/2025
+
+### Hành trình hôm nay
+
+- Đã đọc các bài báo liên quan đến đề tài nckh
+- Viết báo cáo
+- Làm nội dung bài thuyết trình
+
+### Kết quả
+
+- Hiểu được các vấn đề xung quanh đề tài
+- Làm xong bài tập
+
+### Kế hoạch tiếp theo
+
+* Nghiên cứu cho project cuối
+* Làm bài tập python
+* Bổ sung phần contact me trong personal website
+* Bổ sung file pdf cv
+* Tiếp tục làm các phần việc đã chia
+
+
+## Ngày 26/03/2025
+
+### Hành trình hôm nay
+
+- Bổ sung file pdf cv
+
+### Kết quả
+
+- Đã có pdf cv
+
+### Kế hoạch tiếp theo
+
+* Nghiên cứu cho project cuối
+* Làm bài tập python
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm các phần việc đã chia
