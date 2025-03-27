@@ -1,34 +1,32 @@
 \section*{CÁC GIẢ THUYẾT VÀ CÁCH TIẾP CẬN}
-\subsection*{Câu hỏi gợi ý}
-Các giả thuyết đặt ra để giải quyết bài toán chính? Các cách tiếp cận để giải quyết bài toán đặt ra?
-\subsection*{Hướng dẫn}
-Đặt ra những giả thuyết, hay vấn đề-bài toán con cần phải giải quyết để đạt được mục tiêu nghiên cứu đề tài. Các cách tiếp cận (dự kiến) để giải quyết các giả thuyết, bài toán con đã đặt.
 
-\textbf{Giả thuyết:} Có thể xây dựng một hệ học trực tuyến “thích nghi” thỏa mãn các yêu cầu sau:
-\begin{itemize}
-    \item Kênh học tập mới (trực tuyến) hỗ trợ cho kênh học tập truyền thống hấp dẫn, gắn kết người học từ đầu đến cuối khóa học;
-    \item Tập trung với các hoạt động học tập trực tuyến: tự học, học nhóm và cộng đồng;
-    \item Dựa trên hồ sơ đặc trưng người học để tư vấn thông tin (đối với học viên) và cung cấp thông tin giám sát (đối với giáo viên).
-\end{itemize}
+\begin{tabular}{|p{4cm}|p{11cm}|}
+    \hline
+    \textbf{Câu hỏi gợi ý} & Các giả thuyết đặt ra để giải quyết bài toán chính? Các cách tiếp cận để giải quyết bài toán đặt ra? \\
+    \hline
+    \textbf{Hướng dẫn} & Đặt ra những giả thuyết, hay vấn đề bài toán con cần phải giải quyết để đạt được mục tiêu nghiên cứu đề tài. Các cách tiếp cận (dự kiến) để giải quyết các giả thuyết, bài toán con đã đặt. \\
+    \hline
+\end{tabular}
 
-Từ mục tiêu nghiên cứu, chúng tôi đặt ra hai bài toán chính của đề tài:
+\medskip
+
+\textbf{Giả thuyết:} Để đạt được mục tiêu nghiên cứu nhận diện biểu cảm khuôn mặt trong điều kiện ánh sáng yếu, đề tài đặt ra các giả thuyết sau:  
 \begin{enumerate}
-    \item \textbf{Bài toán thứ nhất:} Xây dựng các hoạt động học tập và tổ chức lại logfile nhằm phục vụ chức năng tư vấn;
-    \item \textbf{Bài toán thứ hai:} Xây dựng phân hệ chuyên môn hỗ trợ tư vấn thông tin cho người học và hỗ trợ thông tin giám sát lớp học cho giáo viên một cách tự động.
+    \item Có thể xây dựng một hệ thống nhận diện biểu cảm hiệu quả bằng cách sử dụng CNN nhẹ (MobileNetV3), đảm bảo tốc độ và hiệu suất trên thiết bị hạn chế tài nguyên.
+    \item Kỹ thuật tăng cường dữ liệu thích ứng, dựa trên phân tích mức độ sáng của từng ảnh, sẽ cải thiện độ chính xác của mô hình so với các phương pháp tăng cường dữ liệu cố định.
+    \item Hệ thống đạt được độ chính xác trên 70\% và tốc độ suy luận dưới 0.1 giây/ảnh trên CPU khi kết hợp CNN nhẹ và tăng cường dữ liệu thích ứng.
 \end{enumerate}
 
-Với bài toán thứ nhất, chúng tôi sẽ tiếp cận bằng cách tự động căn cứ tổ chức lại cấu trúc logfile của hệ thống, đồng thời xây dựng mới/nâng cấp/chỉnh sửa một số hoạt động học tập trên hệ thống để đưa thông tin hoạt động người học vào logfile; tách các hoạt động trên hệ thống thành 3 nhóm: hoạt động tự học (cá nhân), hoạt động nhóm và hoạt động cộng đồng.
-
-Với bài toán thứ hai, chúng tôi sẽ tiếp cận bằng cách xây dựng cấu trúc profile mới (bao gồm thông tin kết quả học tập của cá nhân người học có sự so sánh với nhóm học tập và toàn lớp).
-
-\textbf{Cách tiếp cận:}
+\textbf{Bài toán con:}  
 \begin{enumerate}
-    \item Thiết kế và xây dựng mới một số hoạt động học tập để phục vụ mục đích tư vấn thông tin đối với hệ học thích nghi.
-    \item Nâng cấp hoặc chỉnh sửa một số hoạt động cho phù hợp với hệ học thích nghi.
-    \item Thiết kế lại và lưu trữ log file hệ thống để phục vụ việc khai thác thông tin trong tư vấn.
-    \item Thiết kế và cấu trúc learner profile theo ngữ cảnh sinh viên của trường ĐH Sư phạm.
-    \item Xây dựng bộ luật tư vấn và các thuật toán so khớp giữa thông tin cá nhân (profile), thông tin hoạt động với các điều kiện của luật để tư vấn thông tin.
-    \item Xây dựng chức năng thống kê kết quả học tập, quá trình học tập cung cấp thông tin hỗ trợ cho giáo viên giám sát, cung cấp thông tin cảnh báo cho học viên.
+    \item Xây dựng kỹ thuật tăng cường dữ liệu thích ứng dựa trên mức độ sáng của từng ảnh để cải thiện chất lượng đầu vào cho mô hình.
+    \item Huấn luyện và tối ưu hóa mô hình MobileNetV3 để nhận diện biểu cảm trong điều kiện ánh sáng yếu.
 \end{enumerate}
 
-\textbf{Ghi chú}
+\textbf{Cách tiếp cận:}  
+\begin{enumerate}
+    \item \textbf{Tiền xử lý dữ liệu:} Sử dụng tập dữ liệu FER-2013, giảm độ sáng ngẫu nhiên trong khoảng 20-80\% để mô phỏng điều kiện ánh sáng yếu. Áp dụng kỹ thuật tăng cường dữ liệu thích ứng (ví dụ: gamma correction, contrast stretching) dựa trên histogram hoặc độ sáng trung bình của từng ảnh.
+    \item \textbf{Huấn luyện mô hình:} Fine-tuning mô hình MobileNetV3 trên tập dữ liệu đã được tăng cường, tối ưu hóa để đạt hiệu suất cao trong điều kiện ánh sáng yếu.
+    \item \textbf{Đánh giá:} So sánh hiệu suất (độ chính xác và tốc độ suy luận) giữa mô hình sử dụng tăng cường dữ liệu thích ứng và mô hình cơ bản không áp dụng kỹ thuật này.
+    \item \textbf{Công cụ:} Sử dụng Python với TensorFlow/Keras để huấn luyện mô hình và OpenCV để xử lý ảnh.
+\end{enumerate}

@@ -168,11 +168,13 @@ Làm lại bài tập số 3
 
 - Làm slide cho đề cương nckh dự án cuối khoá
 - Viết code mẫu phần adaptive_data_augmentation của dự án cuối khoá
+- Làm đề cương
 
 ### Kết quả
 
 - Hoàn thành 90% slide
 - Có code mẫu, ví dụ phần adaptive_data_augmentation của dự án cuối khoá
+- Xong đề cương
 
 ### Kế hoạch tiếp theo
 
