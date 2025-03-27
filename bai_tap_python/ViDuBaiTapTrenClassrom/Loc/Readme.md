@@ -145,7 +145,6 @@ Làm lại bài tập số 3
 * Bổ sung file pdf cv
 * Tiếp tục làm các phần việc đã chia
 
-
 ## Ngày 26/03/2025
 
 ### Hành trình hôm nay
@@ -155,6 +154,25 @@ Làm lại bài tập số 3
 ### Kết quả
 
 - Đã có pdf cv
+
+### Kế hoạch tiếp theo
+
+* Nghiên cứu cho project cuối
+* Làm bài tập python
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm các phần việc đã chia
+
+## Ngày 27/03/2025
+
+### Hành trình hôm nay
+
+- Làm slide cho đề cương nckh dự án cuối khoá
+- Viết code mẫu phần adaptive_data_augmentation của dự án cuối khoá
+
+### Kết quả
+
+- Hoàn thành 90% slide
+- Có code mẫu, ví dụ phần adaptive_data_augmentation của dự án cuối khoá
 
 ### Kế hoạch tiếp theo
 
