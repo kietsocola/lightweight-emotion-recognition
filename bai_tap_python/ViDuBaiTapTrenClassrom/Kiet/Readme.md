@@ -106,3 +106,11 @@
 - Hiểu cách thay đổi độ sáng dựa trên gamma
 ### Kế hoạch tiếp theo
 - Làm EDA cho FER2013
+
+## Ngày 28/03/2025
+### Đọc bài báo
+- Tóm tắt bài báo:
+​Bài báo "Retinex-inspired Unrolling with Cooperative Prior Architecture Search for Low-light Image Enhancement" đề xuất phương pháp RUAS nhằm cải thiện chất lượng ảnh chụp trong điều kiện ánh sáng yếu. RUAS kết hợp lý thuyết Retinex để mô hình hóa cấu trúc nội tại của ảnh thiếu sáng và triển khai quá trình tối ưu hóa thành một cấu trúc lan truyền tổng thể. Sau đó, phương pháp này sử dụng chiến lược học không tham chiếu hợp tác để tìm kiếm kiến trúc tối ưu từ không gian tìm kiếm nhỏ gọn, giúp tạo ra mạng tăng cường ảnh hiệu quả với tốc độ xử lý nhanh và yêu cầu tài nguyên tính toán thấp. Kết quả thực nghiệm cho thấy RUAS vượt trội hơn so với các phương pháp tiên tiến hiện có. 
+### Kết quả
+- Hiểu hơn về phương pháp Retinex
+- Hiểu biết về RUAS
