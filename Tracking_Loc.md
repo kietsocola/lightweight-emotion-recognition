@@ -182,3 +182,18 @@ Làm lại bài tập số 3
 * Làm bài tập python
 * Bổ sung phần contact me trong personal website
 * Tiếp tục làm các phần việc đã chia
+
+## Ngày 29/03/2025
+
+### Hành trình hôm nay
+
+- Làm bài tập python chương 2, 3 sách maching learning
+
+### Kết quả
+
+- Hoàn thành bài tập chương 2, 3
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
