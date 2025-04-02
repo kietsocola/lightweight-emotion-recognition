@@ -44,3 +44,50 @@
 ### Kế hoạch tiếp theo
 
 -   Tìm hiểu đồ án cuối
+
+## Ngày 12/03/2025
+
+### Hành trình hôm nay
+
+-   Học về rút trích và tiền xử lý dữ liệu
+-   Thực hành làm sạch dữ liệu, xử lý dữ liệu thiếu, chuẩn hóa dữ liệu
+
+### Kết quả
+
+-   Hiểu được quy trình tiền xử lý dữ liệu
+-   Thực hành xử lý dữ liệu thực tế
+
+## Ngày 13/03/2025
+
+### Hành trình hôm nay
+
+-   Tìm hiểu data FER-2013
+-   Làm bài 3 phần 4 5 6
+
+### Kết quả
+
+-   Hiểu data FER-2013
+-   Commit data FER-2013 lên github
+-   Làm xong bài 3 phần 4 5 6
+
+### Kế hoạch tiếp theo
+
+-   Tìm hiểu đồ án
+-   Làm bài tập machinglearning
+
+## Ngày 27/03/2025
+
+### Hành trình hôm nay
+
+-   Làm bài tập machinglearning chương 6 7
+-   Tìm hiểu đồ án
+
+### Kết quả
+
+-   Làm xong bài tập machinglearning chương 6 7
+
+### Kế hoạch tiếp theo
+
+-   Tìm hiểu đồ án
+-   Làm bài tập machinglearning
+
