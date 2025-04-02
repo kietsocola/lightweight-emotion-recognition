@@ -114,3 +114,10 @@
 ### Kết quả
 - Hiểu hơn về phương pháp Retinex
 - Hiểu biết về RUAS
+
+## Ngày 02/03/2025
+### Đọc bài báo
+- Tóm tắt bài báo:
+​Bài báo "A-MobileNet: An Approach of Facial Expression Recognition" do Yahui Nan và cộng sự đề xuất một phương pháp nhận diện cảm xúc khuôn mặt dựa trên mô hình A-MobileNet. Phương pháp này cải tiến từ kiến trúc MobileNet bằng cách tích hợp các cơ chế chú ý (attention mechanisms) để tăng cường khả năng trích xuất đặc trưng quan trọng từ hình ảnh khuôn mặt. Nhờ đó, mô hình đạt được độ chính xác cao hơn trong việc nhận diện các biểu cảm khác nhau. Kết quả thực nghiệm cho thấy A-MobileNet hoạt động hiệu quả trên các bộ dữ liệu tiêu chuẩn và có tiềm năng ứng dụng trong các hệ thống nhận diện cảm xúc thời gian thực.
+### Kết quả
+- Hiểu hơn về mô hình MobileNet
