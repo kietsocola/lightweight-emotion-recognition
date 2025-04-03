@@ -197,3 +197,19 @@ Làm lại bài tập số 3
 
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
+
+## Ngày 03/04/2025
+
+### Hành trình hôm nay
+
+- Làm bài tập python chương 10 sách maching learning
+
+### Kết quả
+
+- Hoàn thành bài tập chương 10
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Làm tiếp tục bài tập chương 11, 12
