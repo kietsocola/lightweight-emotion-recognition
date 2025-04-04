@@ -98,14 +98,14 @@
 ### Kế hoạch tiếp theo
 
 -   Tìm hiểu đồ án , đọc báo
--   Làm bài tập machinglearning
+-   Làm bài tập machinglearning chương 2,3
 
 ## Ngày 02/04/2025
 
 ### Hành trình hôm nay
 
 -   Tìm hiểu đồ án , đọc báo 
--   Làm bài tập machinglearning
+-   Làm bài tập machinglearning chương 2,3
 
 ### Kết quả
 
@@ -115,4 +115,20 @@
 ### Kế hoạch tiếp theo
 
 -   Tìm hiểu đồ án , đọc báo
--   Làm bài tập machinglearning
+-   Làm bài tập machinglearning chương 4 , 5
+
+## Ngày 04/04/2025
+
+### Hành trình hôm nay
+
+-   Tìm hiểu đồ án , đọc báo 
+-   Làm bài tập machinglearning chương 4,5
+
+### Kết quả
+
+-   Làm bài tập maching learning
+
+### Kế hoạch tiếp theo
+
+-   Tìm hiểu đồ án , đọc báo
+-   Làm bài tập machinglearning 6,7
