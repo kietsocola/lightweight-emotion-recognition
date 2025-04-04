@@ -106,3 +106,18 @@
 - Hiểu cách thay đổi độ sáng dựa trên gamma
 ### Kế hoạch tiếp theo
 - Làm EDA cho FER2013
+
+## Ngày 28/03/2025
+### Đọc bài báo
+- Tóm tắt bài báo:
+​Bài báo "Retinex-inspired Unrolling with Cooperative Prior Architecture Search for Low-light Image Enhancement" đề xuất phương pháp RUAS nhằm cải thiện chất lượng ảnh chụp trong điều kiện ánh sáng yếu. RUAS kết hợp lý thuyết Retinex để mô hình hóa cấu trúc nội tại của ảnh thiếu sáng và triển khai quá trình tối ưu hóa thành một cấu trúc lan truyền tổng thể. Sau đó, phương pháp này sử dụng chiến lược học không tham chiếu hợp tác để tìm kiếm kiến trúc tối ưu từ không gian tìm kiếm nhỏ gọn, giúp tạo ra mạng tăng cường ảnh hiệu quả với tốc độ xử lý nhanh và yêu cầu tài nguyên tính toán thấp. Kết quả thực nghiệm cho thấy RUAS vượt trội hơn so với các phương pháp tiên tiến hiện có. 
+### Kết quả
+- Hiểu hơn về phương pháp Retinex
+- Hiểu biết về RUAS
+
+## Ngày 02/03/2025
+### Đọc bài báo
+- Tóm tắt bài báo:
+​Bài báo "A-MobileNet: An Approach of Facial Expression Recognition" do Yahui Nan và cộng sự đề xuất một phương pháp nhận diện cảm xúc khuôn mặt dựa trên mô hình A-MobileNet. Phương pháp này cải tiến từ kiến trúc MobileNet bằng cách tích hợp các cơ chế chú ý (attention mechanisms) để tăng cường khả năng trích xuất đặc trưng quan trọng từ hình ảnh khuôn mặt. Nhờ đó, mô hình đạt được độ chính xác cao hơn trong việc nhận diện các biểu cảm khác nhau. Kết quả thực nghiệm cho thấy A-MobileNet hoạt động hiệu quả trên các bộ dữ liệu tiêu chuẩn và có tiềm năng ứng dụng trong các hệ thống nhận diện cảm xúc thời gian thực.
+### Kết quả
+- Hiểu hơn về mô hình MobileNet

@@ -91,3 +91,19 @@
 -   Tìm hiểu đồ án
 -   Làm bài tập machinglearning
 
+## Ngày 04/04/2025
+
+### Hành trình hôm nay
+
+-   Làm bài tập machinglearning chương 13 14 15
+-   Tìm hiểu đồ án
+
+### Kết quả
+
+-   Làm xong bài tập machinglearning chương 13 14 15
+
+### Kế hoạch tiếp theo
+
+-   Tìm hiểu đồ án
+-   Làm bài tập machinglearning
+
