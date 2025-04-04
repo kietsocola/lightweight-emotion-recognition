@@ -122,7 +122,7 @@
 ### Hành trình hôm nay
 
 -   Tìm hiểu đồ án , đọc báo 
--   Làm bài tập machinglearning chương 4,5
+-   Làm bài tập machinglearning chương 4,16
 
 ### Kết quả
 
@@ -131,4 +131,4 @@
 ### Kế hoạch tiếp theo
 
 -   Tìm hiểu đồ án , đọc báo
--   Làm bài tập machinglearning 6,7
+-   Làm bài tập machinglearning 17,18
