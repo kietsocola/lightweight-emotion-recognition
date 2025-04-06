@@ -229,3 +229,19 @@ Làm lại bài tập số 3
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
 * Làm tiếp bài tập trong sách deep learning
+
+## Ngày 06/04/2025
+
+### Hành trình hôm nay
+
+- Đọc 2 bài báo về mobilenetV3
+
+### Kết quả
+
+- Đã đọc, tóm tắt bài báo
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Làm tiếp bài tập trong sách deep learning
