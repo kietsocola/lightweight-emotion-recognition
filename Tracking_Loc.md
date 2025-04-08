@@ -261,3 +261,21 @@ Làm lại bài tập số 3
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
 * Tiếp tục làm bái tập số 3
+
+## Ngày 08/04/2025
+
+### Hành trình hôm nay
+
+- Làm bài tập chương 3 sách deep learning
+- Đọc 1 bài báo liên quan đến quá trình tăng tăng cường dữ liệu
+
+### Kết quả
+
+* Làm xong bài tập chương 3 sách deep learning
+* Đọc 1 bài báo liên quan đến quá trình tăng tăng cường dữ liệu
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm bái tập các chương 13, 14, 15, 16 sách deep learning
