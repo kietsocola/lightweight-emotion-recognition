@@ -281,3 +281,20 @@ Làm lại bài tập số 3
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
 * Tiếp tục làm bái tập các chương 13, 14, 15, 16 sách deep learning
+
+
+## Ngày 10/04/2025
+
+### Hành trình hôm nay
+
+- Đọc 1 bài báo liên quan đến quá trình tăng tăng cường dữ liệu (Bie et al - 2023 - DA-FER Domain Adaptive Facial Expression Recognition)
+
+### Kết quả
+
+* Hiểu thêm về cách trình bày bài báo cũng như cách kĩ thuật tằng cường dữ liệu làm
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm bái tập các chương 13, 14, 15, 16 sách deep learning
