@@ -268,11 +268,13 @@ Làm lại bài tập số 3
 
 - Làm bài tập chương 3 sách deep learning
 - Đọc 1 bài báo liên quan đến quá trình tăng tăng cường dữ liệu
+- Sắp xếp lại bố cục của repo
 
 ### Kết quả
 
 * Làm xong bài tập chương 3 sách deep learning
 * Đọc 1 bài báo liên quan đến quá trình tăng tăng cường dữ liệu
+* Repo đã được sắp xếp khoa học hơn 1 chút
 
 ### Kế hoạch tiếp theo
 
