@@ -315,4 +315,19 @@ Làm lại bài tập số 3
 
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
-* Tiếp tục làm bái tập các chương 15, 16 sách deep learning
+
+
+## Ngày 12/04/2025
+
+### Hành trình hôm nay
+
+- Làm bài tập chương 15, 14 sách deep learning
+
+### Kết quả
+
+* Làm xong bài tập chương 15, 16
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
