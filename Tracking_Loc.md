@@ -282,7 +282,6 @@ Làm lại bài tập số 3
 * Bổ sung phần contact me trong personal website
 * Tiếp tục làm bái tập các chương 13, 14, 15, 16 sách deep learning
 
-
 ## Ngày 10/04/2025
 
 ### Hành trình hôm nay
@@ -298,7 +297,6 @@ Làm lại bài tập số 3
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
 * Tiếp tục làm bái tập các chương 13, 14, 15, 16 sách deep learning
-
 
 ## Ngày 11/04/2025
 
@@ -316,16 +314,17 @@ Làm lại bài tập số 3
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
 
-
 ## Ngày 12/04/2025
 
 ### Hành trình hôm nay
 
 - Làm bài tập chương 15, 14 sách deep learning
+- Đọc 2 bài báo liên quan đến mobilenetV3 và retinet
 
 ### Kết quả
 
 * Làm xong bài tập chương 15, 16
+* Đọc và tóm tắt
 
 ### Kế hoạch tiếp theo
 
