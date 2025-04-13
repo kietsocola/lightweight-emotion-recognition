@@ -29,13 +29,16 @@
 | `.gitignore`                      | File cấu hình Git để bỏ qua các file/thư mục không cần theo dõi.      |
 | `[Tutorial] EDA-Python (1).ipynb` | Notebook hướng dẫn sử dụng Python cho phân tích dữ liệu.                |
 | `README.md`                       | Tài liệu giới thiệu tổng quan về repo và đồ án (chính là file này). |
-| `Tracking_Lam.md`                 | File theo dõi công việc, tiến độ của bạn**Lâm**.                  |
+| `Tracking_Kiet.md`                | File theo dõi công việc, tiến độ của bạn**Kiệt**.                 |
+| `Tracking_Lam.md`                 | File theo dõi công việc, tiến độ của bạn**D. Lâm**.               |
 | `Tracking_Loc.md`                 | File theo dõi công việc, tiến độ của bạn**Lộc**.                  |
 | `Tracking_PLam.md`                | File theo dõi công việc, tiến độ của bạn**P. Lâm**.               |
 
 ---
 
----
+## Phân chia nhiệm vụ
+
+Mọi vấn đề về chia nhiệm vụ cho từng thành viên được thực hiện ở [file excel](https://docs.google.com/spreadsheets/d/1fQEhZhOme_cUPzWFHYGgAEzErR-zbi63u4UeUeJ06Mo/edit?gid=700579882#gid=700579882) (file excel cập nhật hàng tuần)
 
 ## 👥 Thành viên nhóm
 
