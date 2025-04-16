@@ -40,6 +40,12 @@
 
 Mọi vấn đề về chia nhiệm vụ cho từng thành viên được thực hiện ở [file excel](https://docs.google.com/spreadsheets/d/1fQEhZhOme_cUPzWFHYGgAEzErR-zbi63u4UeUeJ06Mo/edit?gid=700579882#gid=700579882) (file excel cập nhật hàng tuần)
 
+
+## Kế hoạch thực nghiệm
+
+Mọi vấn đề về kế hoạch thực nghiệm cho dự án cuối môn được thực hiện ở [file excel](https://docs.google.com/spreadsheets/d/1BYEiQDNeR3SQME8fLpjtJrljtBMBBZSAvlPewkP45Yo/edit?gid=0#gid=0) (file excel cập nhật hàng tuần)
+
+
 ## 👥 Thành viên nhóm
 
 | Họ và tên           | Email                                                | GitHub                                                  | Website cá nhân                                                                      |
