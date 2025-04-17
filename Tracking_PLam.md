@@ -132,3 +132,23 @@
 
 -   Tìm hiểu đồ án , đọc báo
 -   Làm bài tập machinglearning 17,18
+
+## Ngày 04/04/2025
+
+### Hành trình hôm nay
+
+-   Tìm hiểu đồ án , đọc báo 
+-   Làm bài tập machinglearning chương 17,18
+-   lập kế hoạch thực nghiệm cho đồ án
+
+### Kết quả
+
+-   Làm bài tập maching learning
+-   Tìm hiểu đồ án , đọc  báo
+-   Lập kế hoạch thực nghiệm cho đồ án
+
+### Kế hoạch tiếp theo
+
+-   Tìm hiểu đồ án , đọc báo
+-   Làm bài tập machinglearning 
+-   Thực hiện kế hoạch thực nghiệm

@@ -15,7 +15,9 @@
         <link:link rdf:resource="#item_42"/>
         <link:link rdf:resource="#item_43"/>
         <link:link rdf:resource="#item_44"/>
+        <link:link rdf:resource="#item_126"/>
         <link:link rdf:resource="#item_33"/>
+        <link:link rdf:resource="#item_118"/>
         <link:link rdf:resource="#item_77"/>
         <dc:title>paper</dc:title>
     </bib:Article>
@@ -49,10 +51,22 @@
         <dc:title>Facial Expression Recognition with Deep Learning</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
+    <z:Attachment rdf:about="#item_126">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/126/Liang et al. - 2023 - A lightweight method for face expression recognition based on improved MobileNetV3.pdf"/>
+        <dc:title>Liang et al. - 2023 - A lightweight method for face expression recognition based on improved MobileNetV3</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Attachment rdf:about="#item_33">
         <z:itemType>attachment</z:itemType>
         <rdf:resource rdf:resource="files/33/Research on facial expression recognition algorithm based on improved MobileNetV3.pdf"/>
         <dc:title>Research on facial expression recognition algorithm based on improved MobileNetV3</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_118">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/118/S. Swapna Rani - 2024 - Enhancing Facial Recognition Accuracy in Low-Light Conditions Using Convolutional Neural Networks.pdf"/>
+        <dc:title>S. Swapna Rani - 2024 - Enhancing Facial Recognition Accuracy in Low-Light Conditions Using Convolutional Neural Networks</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
     <z:Attachment rdf:about="#item_77">
