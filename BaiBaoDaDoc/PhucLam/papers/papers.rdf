@@ -11,6 +11,7 @@
            <bib:Newspaper></bib:Newspaper>
         </dcterms:isPartOf>
         <link:link rdf:resource="#item_37"/>
+        <link:link rdf:resource="#item_133"/>
         <link:link rdf:resource="#item_35"/>
         <link:link rdf:resource="#item_42"/>
         <link:link rdf:resource="#item_43"/>
@@ -25,6 +26,12 @@
         <z:itemType>attachment</z:itemType>
         <rdf:resource rdf:resource="files/37/Duhok Ppolytechnic University et al. - 2021 - Facial Expression Recognition Based on Deep Learning Convolution Neural Network A Review.pdf"/>
         <dc:title>(Real time)Duhok Ppolytechnic University et al. - 2021 - Facial Expression Recognition Based on Deep Learning Convolution Neural Network A Review</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_133">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/133/[thesis] pham_qui_luan_emotion.pdf"/>
+        <dc:title>[thesis] pham_qui_luan_emotion</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
     <z:Attachment rdf:about="#item_35">

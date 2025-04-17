@@ -117,7 +117,7 @@
 -   Tìm hiểu đồ án , đọc báo
 -   Làm bài tập machinglearning chương 4 , 5
 
-## Ngày 04/04/2025
+## Ngày 06/04/2025
 
 ### Hành trình hôm nay
 
@@ -133,7 +133,7 @@
 -   Tìm hiểu đồ án , đọc báo
 -   Làm bài tập machinglearning 17,18
 
-## Ngày 04/04/2025
+## Ngày 10/04/2025
 
 ### Hành trình hôm nay
 
@@ -152,3 +152,25 @@
 -   Tìm hiểu đồ án , đọc báo
 -   Làm bài tập machinglearning 
 -   Thực hiện kế hoạch thực nghiệm
+
+## Ngày 17/04/2025
+
+### Hành trình hôm nay
+
+-   Tìm hiểu đồ án , đọc báo 
+-   Làm bài tập machinglearning chương 5,6
+-   lập kế hoạch thực nghiệm cho đồ án
+-   Làm báo cáo phân tích bái luận tốt nghiệp
+
+### Kết quả
+
+-   Làm bài tập maching learning
+-   Tìm hiểu đồ án , đọc  báo
+-   Lập kế hoạch thực nghiệm cho đồ án
+ 
+### Kế hoạch tiếp theo
+
+-   Tìm hiểu đồ án , đọc báo
+-   Làm bài tập machinglearning 
+-   Thực hiện kế hoạch thực nghiệm
+

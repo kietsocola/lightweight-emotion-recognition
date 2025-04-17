@@ -1,0 +1,8 @@
+\begin{itemize}
+    \item Sử dụng tập dữ liệu FER2013 và VEMO. Các hình ảnh được xử lý để phát hiện khuôn mặt bằng phương pháp của OpenCV 3.4 nếu chưa được xử lý trước.
+    \item Áp dụng hai phép biến đổi chính: lật ảnh theo trục dọc (Flip Left Right) và xoay ảnh từ -30 đến 30 độ, sử dụng thư viện imgaug.
+    \item Điều chỉnh kích thước ảnh về 224x224 pixel, chuyển đổi sang tensor, và nhân bản thành ba kênh màu
+    \item Sử dụng lớp Dataset trong PyTorch để tải và quản lý dữ liệu, với hàm getitem để truy xuất ảnh và nhãn.
+    \item Sử dụng mạng Residual Masking Network (ResMaskingNet) với cơ chế chú ý để phân loại cảm xúc.
+    \item Sử dụng GradCAM và gộp theo chiều kênh (Average Pooling) để trực quan hóa các vùng chú ý của mô hình trên khuôn mặt.
+\end{itemize}
