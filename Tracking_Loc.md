@@ -330,3 +330,19 @@ Làm lại bài tập số 3
 
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
+
+## Ngày 17/04/2025
+
+### Hành trình hôm nay
+
+- Làm thực nghiệm đầu tiên (mô hình mobilenet V3)
+
+### Kết quả
+
+* Chạy xong thực nghiệm đầu nhưng độ chính xác thấp (2x%)
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm các thực nghiệm tiếp theo
