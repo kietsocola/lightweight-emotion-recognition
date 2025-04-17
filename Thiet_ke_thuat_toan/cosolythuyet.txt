@@ -1,0 +1,119 @@
+1. Cơ sở lý thuyết
+Lý do xây dựng thuật toán tăng cường dữ liệu thích ứng
+Trong nhận diện biểu cảm khuôn mặt (FER) dưới điều kiện ánh sáng yếu, chất lượng ảnh thường bị suy giảm do độ sáng thấp, dẫn đến mất chi tiết về texture và đặc trưng khuôn mặt. Các kỹ thuật tăng cường dữ liệu truyền thống (fixed augmentation) như histogram equalization hoặc gamma correction áp dụng một cách đồng nhất cho tất cả ảnh, bất kể mức độ ánh sáng của ảnh. Điều này có thể gây ra các vấn đề:
+
+Ảnh quá tối: Tăng cường quá mức có thể làm mất chi tiết hoặc tạo nhiễu.
+Ảnh sáng vừa đủ: Tăng cường không cần thiết có thể làm thay đổi đặc trưng tự nhiên của ảnh.
+Thuật toán tăng cường dữ liệu thích ứng được thiết kế để giải quyết vấn đề này bằng cách phân tích mức độ ánh sáng của từng ảnh (dựa trên các đặc trưng như độ sáng trung bình hoặc phân bố histogram) và áp dụng các kỹ thuật tăng cường phù hợp với từng ảnh. Ý tưởng này dựa trên các nghiên cứu gần đây (2020-2023) về xử lý ảnh ánh sáng yếu, nhưng được đơn giản hóa để phù hợp với các mô hình CNN nhẹ như MobileNetV3 và thời gian dự án (6 tuần).
+
+Cơ sở lý thuyết
+Phân tích độ sáng ảnh:
+Độ sáng trung bình (mean intensity) của ảnh grayscale hoặc kênh luminance (Y trong không gian màu YUV) được sử dụng để đánh giá mức độ ánh sáng yếu.
+Phân bố histogram của ảnh cung cấp thông tin về sự phân bố giá trị pixel, giúp xác định ảnh có bị tối cục bộ hay toàn cục.
+Kỹ thuật tăng cường ánh sáng:
+Gamma correction: Điều chỉnh độ sáng bằng cách thay đổi giá trị pixel theo công thức 
+𝐼
+out
+=
+𝐼
+in
+𝛾
+I 
+out
+​
+ =I 
+in
+γ
+​
+ , trong đó 
+𝛾
+<
+1
+γ<1 tăng độ sáng, 
+𝛾
+>
+1
+γ>1 giảm độ sáng. Gamma được chọn dựa trên mức độ ánh sáng của ảnh.
+Histogram equalization: Phân bố lại giá trị pixel để tăng độ tương phản, nhưng chỉ áp dụng khi histogram cho thấy ảnh có độ tương phản thấp.
+Contrast stretching: Kéo dãn khoảng giá trị pixel để cải thiện độ tương phản ở những vùng tối.
+Tính thích ứng:
+Thay vì sử dụng một giá trị cố định cho 
+𝛾
+γ hoặc áp dụng histogram equalization cho tất cả ảnh, thuật toán sẽ tính toán mức độ ánh sáng yếu dựa trên:
+Độ sáng trung bình (
+𝜇
+μ).
+Độ lệch chuẩn của độ sáng (
+𝜎
+σ), để đánh giá mức độ đồng đều của ánh sáng.
+Dựa vào các ngưỡng (threshold) được xác định trước, thuật toán chọn kỹ thuật tăng cường phù hợp:
+Ảnh rất tối (
+𝜇
+<
+𝑇
+1
+μ<T 
+1
+​
+ ): Áp dụng gamma correction mạnh (
+𝛾
+γ nhỏ).
+Ảnh tối vừa phải (
+𝑇
+1
+≤
+𝜇
+<
+𝑇
+2
+T 
+1
+​
+ ≤μ<T 
+2
+​
+ ): Áp dụng gamma correction nhẹ hoặc histogram equalization.
+Ảnh sáng đủ (
+𝜇
+≥
+𝑇
+2
+μ≥T 
+2
+​
+ ): Không tăng cường hoặc chỉ áp dụng contrast stretching nhẹ.
+Nguồn cảm hứng:
+Các nghiên cứu về Retinex (2020-2022) phân tách ánh sáng và phản xạ, nhưng phức tạp và không phù hợp cho dự án ngắn. Thuật toán này đơn giản hóa bằng cách chỉ dựa vào đặc trưng ánh sáng.
+Các phương pháp GAN-based (EnlightenGAN, 2021) tạo ảnh ánh sáng tốt, nhưng tốn tài nguyên tính toán. Thuật toán thích ứng tập trung vào các kỹ thuật đơn giản, nhanh, và hiệu quả cho CNN nhẹ.
+Nghiên cứu về adaptive augmentation (2021-2023) trong học sâu, nhấn mạnh việc tùy chỉnh tăng cường dữ liệu theo đặc điểm của từng mẫu dữ liệu.
+2. Ưu điểm và khuyết điểm
+Ưu điểm (dựa trên lý thuyết)
+Tính thích ứng cao:
+Thuật toán phân tích đặc trưng ánh sáng của từng ảnh, giúp áp dụng tăng cường phù hợp, tránh hiện tượng quá sáng hoặc mất chi tiết.
+Đơn giản và hiệu quả:
+Sử dụng các kỹ thuật nhẹ như gamma correction và histogram equalization, phù hợp với thời gian dự án (6 tuần) và mô hình CNN nhẹ (MobileNetV3).
+Cải thiện hiệu suất FER:
+Bằng cách cải thiện chất lượng ảnh trong điều kiện ánh sáng yếu, thuật toán giúp CNN nhận diện các đặc trưng khuôn mặt tốt hơn, đặc biệt là các chi tiết như mắt, miệng.
+Khả năng mở rộng:
+Thuật toán có thể dễ dàng tích hợp thêm các kỹ thuật tăng cường khác (ví dụ: denoising) nếu cần.
+Khuyết điểm (dựa trên lý thuyết)
+Phụ thuộc vào ngưỡng:
+Việc chọn ngưỡng 
+𝑇
+1
+,
+𝑇
+2
+T 
+1
+​
+ ,T 
+2
+​
+  dựa trên kinh nghiệm hoặc thử nghiệm, có thể không tối ưu cho mọi dataset hoặc điều kiện ánh sáng.
+Hạn chế với ánh sáng không đồng đều:
+Nếu ảnh có vùng sáng và vùng tối xen kẽ (ví dụ: ánh sáng từ một phía), thuật toán dựa trên độ sáng trung bình có thể không xử lý tốt các vùng tối cục bộ.
+Không giải quyết nhiễu:
+Thuật toán tập trung vào tăng độ sáng và tương phản, nhưng không xử lý nhiễu (noise) trong điều kiện ánh sáng yếu, có thể ảnh hưởng đến CNN.
+Hiệu quả phụ thuộc vào dataset:
+Nếu dataset không đại diện cho nhiều mức độ ánh sáng yếu, thuật toán có thể không phát huy hết tính thích ứng.
