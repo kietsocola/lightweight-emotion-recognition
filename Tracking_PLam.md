@@ -164,7 +164,6 @@
 
 ### Kết quả
 
--   Làm bài tập maching learning
 -   Tìm hiểu đồ án , đọc  báo
 -   Lập kế hoạch thực nghiệm cho đồ án
  

@@ -14,6 +14,7 @@
         <link:link rdf:resource="#item_133"/>
         <link:link rdf:resource="#item_35"/>
         <link:link rdf:resource="#item_42"/>
+        <link:link rdf:resource="#item_147"/>
         <link:link rdf:resource="#item_43"/>
         <link:link rdf:resource="#item_44"/>
         <link:link rdf:resource="#item_126"/>
@@ -44,6 +45,12 @@
         <z:itemType>attachment</z:itemType>
         <rdf:resource rdf:resource="files/42/Deep Facial Expression Recognition A Survey.pdf"/>
         <dc:title>Deep Facial Expression Recognition A Survey</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_147">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/147/Emotion-Recognition-on-FER-2013-Face-Images-Using-Fine-Tuned-VGG-16.pdf"/>
+        <dc:title>Emotion-Recognition-on-FER-2013-Face-Images-Using-Fine-Tuned-VGG-16</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
     <z:Attachment rdf:about="#item_43">
