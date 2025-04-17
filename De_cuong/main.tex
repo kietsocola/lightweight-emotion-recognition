@@ -1,0 +1,42 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{vietnam} % Hỗ trợ tiếng Việt
+\usepackage{geometry} % Điều chỉnh lề trang
+\geometry{a4paper, margin=1in}
+\usepackage{longtable} % Hỗ trợ bảng dài
+\usepackage{enumitem} % Tùy chỉnh danh sách
+\usepackage{fancyhdr} % Tùy chỉnh header/footer
+\usepackage{lastpage} % Hỗ trợ số trang cuối
+\usepackage{hyperref}
+\usepackage{tabularray}
+\usepackage[table]{xcolor}
+
+\setlength{\headheight}{14.93912pt} % Đặt chiều cao tiêu đề theo gợi ý
+\usepackage{graphicx} 
+
+% Thiết lập header/footer
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Trường Đại học Sài Gòn}}
+\lhead{\textit{Bộ Giáo dục và Đào tạo}}
+\rfoot{Trang \thepage\ / \pageref{LastPage}}
+
+% Tiêu đề chính
+\title{\textbf{ĐỀ CƯƠNG CHI TIẾT}}
+\author{}
+\date{Ngày thực hiện đề cương: 27/03/2025}
+
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+% Import các file con
+\input{thongtin}
+\input{gioithieu}
+\input{tinhhinh}
+\input{muctieu}
+\input{giathuyet}
+\input{tailieu}
+\input{sinhvien}
+
+\end{document}

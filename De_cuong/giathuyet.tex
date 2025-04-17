@@ -1,0 +1,32 @@
+\section*{CÁC GIẢ THUYẾT VÀ CÁCH TIẾP CẬN}
+
+\begin{tabular}{|p{4cm}|p{11cm}|}
+    \hline
+    \textbf{Câu hỏi gợi ý} & Các giả thuyết đặt ra để giải quyết bài toán chính? Các cách tiếp cận để giải quyết bài toán đặt ra? \\
+    \hline
+    \textbf{Hướng dẫn} & Đặt ra những giả thuyết, hay vấn đề bài toán con cần phải giải quyết để đạt được mục tiêu nghiên cứu đề tài. Các cách tiếp cận (dự kiến) để giải quyết các giả thuyết, bài toán con đã đặt. \\
+    \hline
+\end{tabular}
+
+\medskip
+
+\textbf{Giả thuyết:} Để đạt được mục tiêu nghiên cứu nhận diện biểu cảm khuôn mặt trong điều kiện ánh sáng yếu, đề tài đặt ra các giả thuyết sau:  
+\begin{enumerate}
+    \item Có thể xây dựng một hệ thống nhận diện biểu cảm hiệu quả bằng cách sử dụng CNN nhẹ (MobileNetV3), đảm bảo tốc độ và hiệu suất trên thiết bị hạn chế tài nguyên.
+    \item Kỹ thuật tăng cường dữ liệu thích ứng, dựa trên phân tích mức độ sáng của từng ảnh, sẽ cải thiện độ chính xác của mô hình so với các phương pháp tăng cường dữ liệu cố định.
+    \item Hệ thống đạt được độ chính xác trên 70\% và tốc độ suy luận dưới 0.1 giây/ảnh trên CPU khi kết hợp CNN nhẹ và tăng cường dữ liệu thích ứng.
+\end{enumerate}
+
+\textbf{Bài toán con:}  
+\begin{enumerate}
+    \item Xây dựng kỹ thuật tăng cường dữ liệu thích ứng dựa trên mức độ sáng của từng ảnh để cải thiện chất lượng đầu vào cho mô hình.
+    \item Huấn luyện và tối ưu hóa mô hình MobileNetV3 để nhận diện biểu cảm trong điều kiện ánh sáng yếu.
+\end{enumerate}
+
+\textbf{Cách tiếp cận:}  
+\begin{enumerate}
+    \item \textbf{Tiền xử lý dữ liệu:} Sử dụng tập dữ liệu FER-2013, giảm độ sáng ngẫu nhiên trong khoảng 20-80\% để mô phỏng điều kiện ánh sáng yếu. Áp dụng kỹ thuật tăng cường dữ liệu thích ứng (ví dụ: gamma correction, contrast stretching) dựa trên histogram hoặc độ sáng trung bình của từng ảnh.
+    \item \textbf{Huấn luyện mô hình:} Fine-tuning mô hình MobileNetV3 trên tập dữ liệu đã được tăng cường, tối ưu hóa để đạt hiệu suất cao trong điều kiện ánh sáng yếu.
+    \item \textbf{Đánh giá:} So sánh hiệu suất (độ chính xác và tốc độ suy luận) giữa mô hình sử dụng tăng cường dữ liệu thích ứng và mô hình cơ bản không áp dụng kỹ thuật này.
+    \item \textbf{Công cụ:} Sử dụng Python với TensorFlow/Keras để huấn luyện mô hình và OpenCV để xử lý ảnh.
+\end{enumerate}

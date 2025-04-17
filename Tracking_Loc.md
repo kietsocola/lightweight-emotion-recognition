@@ -229,3 +229,104 @@ Làm lại bài tập số 3
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
 * Làm tiếp bài tập trong sách deep learning
+
+## Ngày 06/04/2025
+
+### Hành trình hôm nay
+
+- Đọc 2 bài báo về mobilenetV3
+
+### Kết quả
+
+- Đã đọc, tóm tắt bài báo
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Làm tiếp bài tập trong sách deep learning
+
+## Ngày 07/04/2025
+
+### Hành trình hôm nay
+
+- Làm bài tập chương 1, 2 sách deep learning
+
+### Kết quả
+
+* Làm xong bài tập chương 1, 2 sách deep learning
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm bái tập số 3
+
+## Ngày 08/04/2025
+
+### Hành trình hôm nay
+
+- Làm bài tập chương 3 sách deep learning
+- Đọc 1 bài báo liên quan đến quá trình tăng tăng cường dữ liệu
+- Sắp xếp lại bố cục của repo
+
+### Kết quả
+
+* Làm xong bài tập chương 3 sách deep learning
+* Đọc 1 bài báo liên quan đến quá trình tăng tăng cường dữ liệu
+* Repo đã được sắp xếp khoa học hơn 1 chút
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm bái tập các chương 13, 14, 15, 16 sách deep learning
+
+## Ngày 10/04/2025
+
+### Hành trình hôm nay
+
+- Đọc 1 bài báo liên quan đến quá trình tăng tăng cường dữ liệu (Bie et al - 2023 - DA-FER Domain Adaptive Facial Expression Recognition)
+
+### Kết quả
+
+* Hiểu thêm về cách trình bày bài báo cũng như cách kĩ thuật tằng cường dữ liệu làm
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm bái tập các chương 13, 14, 15, 16 sách deep learning
+
+## Ngày 11/04/2025
+
+### Hành trình hôm nay
+
+- Làm bài tập chương 13, 14 sách deep learning
+
+### Kết quả
+
+* Làm xong bài tập chương 13, 14
+* Cài đặt môi trường ảo cho việc làm bài tập thuận lợi
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+
+## Ngày 12/04/2025
+
+### Hành trình hôm nay
+
+- Làm bài tập chương 15, 14 sách deep learning
+- Đọc 2 bài báo liên quan đến mobilenetV3 và retinet
+
+### Kết quả
+
+* Làm xong bài tập chương 15, 16
+* Đọc và tóm tắt
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
