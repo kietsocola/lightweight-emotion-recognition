@@ -107,3 +107,37 @@
 -   Tìm hiểu đồ án
 -   Làm bài tập machinglearning
 
+## Ngày 17/04/2025
+
+### Hành trình hôm nay
+
+-   Làm slide bài tập 6
+-   Tìm hiểu đồ án
+
+### Kết quả
+
+-   Làm xong slide bài tập 6
+
+### Kế hoạch tiếp theo
+
+-   Tìm hiểu đồ án
+-   Chạy các kịch bản thực nghiệm
+-   Làm bài tập deep learning
+
+## Ngày 18/04/2025
+
+### Hành trình hôm nay
+
+-   Làm bài tập deep learning chương 4 5 6 17 18 19 20
+-   Chạy kịch bản thực nghiệm 1
+-   Tìm hiểu đồ án
+
+### Kết quả
+
+-   Làm xong bài deep learning chương 4 5 6 17 18 19 20
+-   Chạy thành công thực nghiệm 1 với mô hình MobileNetV3
+
+### Kế hoạch tiếp theo
+
+-   Tìm hiểu đồ án
+-   Chạy tiếp các kịch bản thực nghiệm
