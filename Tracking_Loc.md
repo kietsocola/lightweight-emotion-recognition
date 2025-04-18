@@ -346,3 +346,19 @@ Làm lại bài tập số 3
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
 * Tiếp tục làm các thực nghiệm tiếp theo
+
+## Ngày 18/04/2025
+
+### Hành trình hôm nay
+
+- Đọc bài báo tổng quan về các phương pháp nhận diện cảm xúc
+
+### Kết quả
+
+* Bài báo nói về chủ đề cảm xúc nhưng dựa trên chữ, không phải khuôn mặt :)
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm các thực nghiệm tiếp theo
