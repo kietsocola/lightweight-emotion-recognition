@@ -46,13 +46,13 @@ Mọi vấn đề về chia nhiệm vụ cho từng thành viên được thực
 Mọi vấn đề về kế hoạch thực nghiệm cho dự án cuối môn được thực hiện ở [file excel](https://docs.google.com/spreadsheets/d/1BYEiQDNeR3SQME8fLpjtJrljtBMBBZSAvlPewkP45Yo/edit?gid=0#gid=0) (file excel cập nhật hàng tuần)
 
 
-## 👥 Thành viên nhóm
+## 👥 Thành viên nhóm 17
 
 | Họ và tên           | Email                                                | GitHub                                                  | Website cá nhân                                                                      |
 | ---------------------- | ---------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | Nguyễn Hữu Lộc      | [lockbkbang@gmail.com](mailto:lockbkbang@gmail.com)     | [github.com/LocNguyenSGU](https://github.com/LocNguyenSGU) | [locnguyensgu.github.io/nguyenhuuloc2k4](https://locnguyensgu.github.io/nguyenhuuloc2k4/) |
 | Nguyễn Đức Duy Lâm | [duylam468213@gmail.com](mailto:duylam468213@gmail.com) | [github.com/duylam15](https://github.com/duylam15)         | [porfolio-cyan-nine.vercel.app](https://porfolio-cyan-nine.vercel.app/)                   |
-| Tên thành viên 3    | [email3@example.com](mailto:email3@example.com)         | [github.com/username3](https://github.com/username3)       | [gắn link vô](#)                                                                        |
+| Mai Phúc Lâm    | [lamkbvn@gmail.com](mailto:lamkbvn@gmail.com)         | [github.com/lamkbvn](https://github.com/lamkbvn) | [lamkbvn.github.io/trang-ca-nhan/](https://lamkbvn.github.io/trang-ca-nhan/)                             |
 | Tên thành viên 4    | [email4@example.com](mailto:email4@example.com)         | [github.com/username4](https://github.com/username4)       | [gắn link vô](#)                                                                        |
 
 ## ✅ Ghi chú
