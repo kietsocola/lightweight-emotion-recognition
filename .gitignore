@@ -15,4 +15,5 @@
 *.snm
 *.vrb
 *.pdf
+*.csv
 keras-py310
