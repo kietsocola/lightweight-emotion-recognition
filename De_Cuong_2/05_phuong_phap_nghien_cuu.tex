@@ -1,0 +1,28 @@
+\section{Phương pháp nghiên cứu} % Section 5
+
+Để thực hiện đề tài, nhóm áp dụng kết hợp ba nhóm phương pháp chính: phương pháp lý thuyết, phương pháp thực nghiệm và phương pháp so sánh đánh giá. Mỗi phương pháp đóng vai trò hỗ trợ từng giai đoạn cụ thể trong quá trình nghiên cứu, từ khảo sát tài liệu cho đến đánh giá hiệu quả mô hình đề xuất.
+
+\subsection{Phương pháp lý thuyết}
+
+\begin{itemize}
+    \item Nghiên cứu tổng quan các tài liệu khoa học, công trình nghiên cứu và bài báo liên quan đến nhận diện biểu cảm khuôn mặt (FER), đặc biệt là trong điều kiện ánh sáng yếu.
+    \item Tìm hiểu và phân tích các mô hình CNN nhẹ, trong đó trọng tâm là MobileNetV3 — một mô hình có khả năng triển khai thực tế trên thiết bị tài nguyên thấp.
+    \item Khảo sát các kỹ thuật tăng cường dữ liệu ảnh có liên quan đến ánh sáng, như gamma correction, adaptive histogram equalization, contrast stretching... từ đó đề xuất hướng tăng cường thích ứng theo mức sáng ảnh.
+\end{itemize}
+
+\subsection{Phương pháp thực nghiệm}
+
+\begin{itemize}
+    \item Sử dụng tập dữ liệu FER-2013 làm dữ liệu huấn luyện và kiểm thử. Tiền xử lý dữ liệu bằng cách mô phỏng các điều kiện ánh sáng yếu thông qua phép biến đổi độ sáng và tương phản.
+    \item Áp dụng kỹ thuật tăng cường dữ liệu thích ứng: sử dụng đặc trưng ánh sáng (ví dụ: độ sáng trung bình, histogram) của từng ảnh để áp dụng các phương pháp tăng cường phù hợp.
+    \item Huấn luyện mô hình MobileNetV3 trên tập dữ liệu đã được tăng cường. Thực hiện fine-tuning mô hình để đạt được hiệu suất tốt nhất.
+    \item Đánh giá mô hình theo các chỉ số chuẩn: Accuracy, Precision, Recall, F1-score và thời gian suy luận trên CPU.
+\end{itemize}
+
+\subsection{Phương pháp so sánh đánh giá}
+
+\begin{itemize}
+    \item Thực hiện so sánh giữa hai mô hình: mô hình cơ bản (không tăng cường dữ liệu thích ứng) và mô hình có áp dụng kỹ thuật tăng cường thích ứng.
+    \item Phân tích kết quả định lượng (qua chỉ số) và định tính (quan sát vùng biểu cảm dễ nhận diện hơn sau tăng cường) để đánh giá hiệu quả của phương pháp đề xuất.
+    \item Đánh giá mức độ cải thiện về độ chính xác và tốc độ xử lý, từ đó xác định tính khả thi của mô hình trong ứng dụng thực tế.
+\end{itemize}

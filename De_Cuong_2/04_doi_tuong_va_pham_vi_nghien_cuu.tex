@@ -1,0 +1,25 @@
+\section{Đối tượng và phạm vi nghiên cứu} % Section 4
+
+\subsection{Đối tượng nghiên cứu}
+
+Đối tượng nghiên cứu của đề tài là các kỹ thuật nhận diện biểu cảm khuôn mặt (Facial Expression Recognition - FER) trong điều kiện ánh sáng yếu, với trọng tâm là mô hình học sâu nhẹ (lightweight deep learning) và kỹ thuật tăng cường dữ liệu thích ứng theo mức độ sáng.
+
+Cụ thể, đề tài tập trung vào:
+
+\begin{itemize}
+    \item Mô hình mạng nơ-ron tích chập nhẹ (MobileNetV3) trong bài toán phân loại cảm xúc khuôn mặt.
+    \item Các kỹ thuật tăng cường dữ liệu ảnh thích ứng dựa trên đặc trưng ánh sáng của từng ảnh (gamma correction, contrast adjustment, histogram equalization,...).
+    \item Ứng dụng các kỹ thuật trên trong điều kiện ánh sáng yếu nhằm cải thiện hiệu suất phân loại biểu cảm.
+\end{itemize}
+
+\subsection{Phạm vi nghiên cứu}
+
+Phạm vi nghiên cứu của đề tài được giới hạn trong các nội dung sau:
+
+\begin{itemize}
+    \item Tập trung xử lý hình ảnh tĩnh (không xử lý video hoặc chuỗi hình ảnh thời gian thực).
+    \item Sử dụng tập dữ liệu công khai FER-2013, với các ảnh được biến đổi để mô phỏng điều kiện ánh sáng yếu.
+    \item Không sử dụng các mô hình phức tạp như GAN, Vision Transformer hoặc các kiến trúc mạng lớn có yêu cầu phần cứng cao.
+    \item Hạn chế ở việc đánh giá hiệu suất mô hình dựa trên độ chính xác, thời gian suy luận và các chỉ số cơ bản (Accuracy, Precision, Recall, F1-score), không mở rộng sang các khía cạnh tâm lý học hay biểu cảm vi mô.
+    \item Triển khai và đánh giá mô hình trên thiết bị CPU mô phỏng điều kiện tài nguyên thấp.
+\end{itemize}

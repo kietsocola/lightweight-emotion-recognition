@@ -1,0 +1,25 @@
+\section{Mục đích và nhiệm vụ nghiên cứu} % Section 3
+
+\subsection{Mục đích nghiên cứu}
+
+Mục đích của đề tài là xây dựng một hệ thống nhận diện biểu cảm khuôn mặt hiệu quả trong điều kiện ánh sáng yếu, đảm bảo tính chính xác và tốc độ xử lý, đồng thời phù hợp để triển khai trên các thiết bị có giới hạn tài nguyên như camera giám sát, thiết bị di động hoặc hệ thống nhúng. Thông qua việc kết hợp mô hình CNN nhẹ (MobileNetV3) với kỹ thuật tăng cường dữ liệu thích ứng theo mức độ sáng, đề tài hướng đến giải quyết các hạn chế về hiệu suất trong môi trường ánh sáng không ổn định.
+
+Đề tài kỳ vọng chứng minh rằng với cách tiếp cận đơn giản nhưng hợp lý, có thể đạt được độ chính xác chấp nhận được (> 70\%) trong điều kiện ánh sáng yếu mà không cần sử dụng các mô hình phức tạp hoặc chi phí cao.
+
+\subsection{Nhiệm vụ nghiên cứu}
+
+Để đạt được mục đích trên, đề tài cần thực hiện các nhiệm vụ chính sau:
+
+\begin{itemize}
+    \item Tìm hiểu tổng quan về các mô hình CNN nhẹ, đặc biệt là MobileNetV3, và kỹ thuật tăng cường dữ liệu liên quan đến ánh sáng yếu.
+    
+    \item Khảo sát và phân tích các phương pháp tăng cường dữ liệu thích ứng hiện có, từ đó đề xuất kỹ thuật phù hợp với bài toán FER.
+    
+    \item Tiền xử lý và xây dựng tập dữ liệu mô phỏng điều kiện ánh sáng yếu dựa trên FER-2013 hoặc các tập dữ liệu FER công khai khác.
+    
+    \item Thiết kế và huấn luyện mô hình MobileNetV3 kết hợp với kỹ thuật tăng cường dữ liệu thích ứng để nhận diện biểu cảm khuôn mặt.
+    
+    \item Đánh giá hiệu suất mô hình qua các chỉ số như Accuracy, Precision, Recall, F1-score và thời gian suy luận trên CPU.
+    
+    \item So sánh kết quả giữa mô hình có và không áp dụng tăng cường thích ứng để chứng minh hiệu quả của phương pháp đề xuất.
+\end{itemize}
