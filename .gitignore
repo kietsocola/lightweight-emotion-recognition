@@ -16,4 +16,5 @@
 *.vrb
 *.pdf
 *.csv
+*.pth
 keras-py310
