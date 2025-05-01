@@ -12,6 +12,13 @@ Bên cạnh đó, xu hướng nghiên cứu gần đây cũng tập trung vào c
 
 Đề tài tập trung vào việc giải quyết bài toán nhận diện biểu cảm khuôn mặt trong điều kiện ánh sáng yếu thông qua hai hướng tiếp cận chính:
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{./img/phuong_phap_tiep_can.png} \\[0.5cm]
+    \caption{Sơ đồ tổng quan quá trình nhận diện biểu cảm khuôn mặt trong điều kiện ánh sáng yếu sử dụng mô hình MobileNetV3 kết hợp tăng cường dữ liệu thích ứng.}
+    \label{fig:phuong_phap_tiep_can}
+\end{figure}
+
 \begin{itemize}
     \item \textbf{Sử dụng mô hình CNN nhẹ:} MobileNetV3 được lựa chọn làm kiến trúc mạng nơ-ron nền tảng vì có dung lượng nhỏ, tốc độ suy luận nhanh và phù hợp triển khai trên thiết bị giới hạn tài nguyên. Điều này giúp đảm bảo tính khả thi trong các ứng dụng thực tế như camera an ninh, robot xã hội, hay thiết bị đeo thông minh.
     
@@ -19,3 +26,13 @@ Bên cạnh đó, xu hướng nghiên cứu gần đây cũng tập trung vào c
 \end{itemize}
 
 Hướng tiếp cận này vừa đảm bảo hiệu quả nhận diện trong điều kiện ánh sáng khó khăn, vừa phù hợp với yêu cầu triển khai thực tế. Đề tài không chỉ có ý nghĩa trong việc nâng cao chất lượng hệ thống FER, mà còn mở ra khả năng mở rộng cho các bài toán thị giác máy tính khác trong môi trường bất lợi.
+
+\subsection*{Câu hỏi nghiên cứu} % 2.3
+
+Từ thực trạng và hướng tiếp cận đã trình bày, đề tài tập trung trả lời các câu hỏi nghiên cứu chính sau:
+
+\begin{itemize}
+    \item Việc áp dụng kỹ thuật tăng cường dữ liệu thích ứng theo mức độ sáng có giúp cải thiện hiệu suất nhận diện biểu cảm khuôn mặt trong điều kiện ánh sáng yếu hay không?
+    
+    \item Mô hình CNN nhẹ (MobileNetV3) khi kết hợp với dữ liệu đã được tăng cường thích ứng có thể đạt độ chính xác trên 70\% và đảm bảo tốc độ xử lý đủ nhanh để triển khai thực tế trên thiết bị tài nguyên thấp hay không?
+\end{itemize}

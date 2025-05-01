@@ -363,7 +363,6 @@ Làm lại bài tập số 3
 * Bổ sung phần contact me trong personal website
 * Tiếp tục làm các thực nghiệm tiếp theo
 
-
 ## Ngày 29/04/2025
 
 ### Hành trình hôm nay
@@ -373,6 +372,22 @@ Làm lại bài tập số 3
 ### Kết quả
 
 * Xong tương đối đề cương NCKH (bản nộp cuối cùng)
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm các thực nghiệm tiếp theo
+
+## Ngày 01/05/2025
+
+### Hành trình hôm nay
+
+- Làm lại đề cương NCKH (bản nộp cuối cùng)
+
+### Kết quả
+
+* Xong 100% đề cương NCKH (bản nộp cuối cùng)
 
 ### Kế hoạch tiếp theo
 
