@@ -115,9 +115,48 @@
 - Hiểu hơn về phương pháp Retinex
 - Hiểu biết về RUAS
 
-## Ngày 02/03/2025
+## Ngày 02/04/2025
 ### Đọc bài báo
 - Tóm tắt bài báo:
 ​Bài báo "A-MobileNet: An Approach of Facial Expression Recognition" do Yahui Nan và cộng sự đề xuất một phương pháp nhận diện cảm xúc khuôn mặt dựa trên mô hình A-MobileNet. Phương pháp này cải tiến từ kiến trúc MobileNet bằng cách tích hợp các cơ chế chú ý (attention mechanisms) để tăng cường khả năng trích xuất đặc trưng quan trọng từ hình ảnh khuôn mặt. Nhờ đó, mô hình đạt được độ chính xác cao hơn trong việc nhận diện các biểu cảm khác nhau. Kết quả thực nghiệm cho thấy A-MobileNet hoạt động hiệu quả trên các bộ dữ liệu tiêu chuẩn và có tiềm năng ứng dụng trong các hệ thống nhận diện cảm xúc thời gian thực.
 ### Kết quả
 - Hiểu hơn về mô hình MobileNet
+
+
+## Ngày 06/04/2025
+### Hành trình hôm nay
+- Làm bài tập chương 19 sách ML
+### Kết quả
+- Tải xuống và cài đặt Python SciPy và nhận gói hữu ích nhất cho học máy bằng Python.
+- Tải một tập dữ liệu và hiểu cấu trúc của nó bằng cách sử dụng tóm tắt thống kê và hình ảnh hóa dữ liệu.
+- Tạo ​​6 mô hình học máy, chọn mô hình tốt nhất và xây dựng sự tự tin rằng độ chính xác là đáng tin cậy.
+### Kế hoạch tiếp theo
+- Tiếp tục làm các chương tiếp theo
+
+## Ngày 16/04/2025
+### Hành trình hôm nay
+- Chạy thử mô hình Restinet18
+### Kết quả
+- Nhận thấy mô hình này chạy rất tốt trên tập test, với thời gian chạy và nhận diện ảnh rất ngắn
+- Nguy cơ mô hình MobilenetV3 không thắng nổi
+### Kế hoạch tiếp theo
+- Tiếp tục làm các chương tiếp theo
+
+## Ngày 18/04/2025
+### Hành trình hôm nay
+- Làm bài tập chương 20 sách ML
+### Kết quả
+- Cách giải quyết vấn đề mô hình hóa dự đoán hồi quy từ đầu đến cuối.
+- Cách sử dụng chuyển đổi dữ liệu để cải thiện hiệu suất mô hình.
+- Cách sử dụng điều chỉnh thuật toán để cải thiện hiệu suất mô hình
+### Kế hoạch tiếp theo
+- Tiếp tục làm các chương tiếp theo
+
+## Ngày 29/04/2025
+### Hành trình hôm nay
+- Làm bài tập chương 21 sách ML
+### Kết quả
+- Cách giải quyết vấn đề mô hình dự đoán phân loại từ đầu đến cuối.
+- Cách sử dụng phương pháp tổng hợp và điều chỉnh phương pháp tổng hợp để cải thiện hiệu suất mô hình.
+### Kế hoạch tiếp theo
+- Làm slide và điều chỉnh mô hình MobilenetV3
