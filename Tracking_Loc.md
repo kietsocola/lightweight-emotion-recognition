@@ -394,3 +394,36 @@ Làm lại bài tập số 3
 * Đọc thêm các bài báo cho project cuối
 * Bổ sung phần contact me trong personal website
 * Tiếp tục làm các thực nghiệm tiếp theo
+
+## Ngày 01/05/2025
+
+### Hành trình hôm nay
+
+- Làm lại đề cương NCKH (bản nộp cuối cùng)
+
+### Kết quả
+
+* Xong 100% đề cương NCKH (bản nộp cuối cùng)
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm các thực nghiệm tiếp theo
+
+## Ngày 02/05/2025
+
+### Hành trình hôm nay
+
+- Làm thực nghiệm mobileNetV3 đơn thuần. (version V3, V4)
+
+### Kết quả
+
+* Mô hình chạy lên được 61%. (đối với ảnh bình thường - chưa qua giảm sáng)
+
+### Kế hoạch tiếp theo
+
+* Đọc thêm các bài báo cho project cuối
+* Bổ sung phần contact me trong personal website
+* Tiếp tục làm các thực nghiệm mobileNetV3 + thuật toán + ảnh giảm sáng
+* Tiếp tục làm các thực nghiệm mobileNetV3 + ảnh giảm sáng
