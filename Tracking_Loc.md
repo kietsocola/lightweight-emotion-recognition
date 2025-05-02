@@ -416,14 +416,15 @@ Làm lại bài tập số 3
 ### Hành trình hôm nay
 
 - Làm thực nghiệm mobileNetV3 đơn thuần. (version V3, V4)
+- Xong phần contact me trong personal website
 
 ### Kết quả
 
 * Mô hình chạy lên được 61%. (đối với ảnh bình thường - chưa qua giảm sáng)
+* Section contact me có thể nhận được thông tin và lưu được dù không có backend nhờ vào api gg sheet.
 
 ### Kế hoạch tiếp theo
 
 * Đọc thêm các bài báo cho project cuối
-* Bổ sung phần contact me trong personal website
 * Tiếp tục làm các thực nghiệm mobileNetV3 + thuật toán + ảnh giảm sáng
 * Tiếp tục làm các thực nghiệm mobileNetV3 + ảnh giảm sáng
