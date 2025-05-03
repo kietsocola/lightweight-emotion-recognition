@@ -18,3 +18,5 @@
 *.csv
 *.pth
 keras-py310
+Bai_4/data_dark/
+Bai_4/data_algorithm/
