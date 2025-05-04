@@ -428,3 +428,20 @@ Làm lại bài tập số 3
 * Đọc thêm các bài báo cho project cuối
 * Tiếp tục làm các thực nghiệm mobileNetV3 + thuật toán + ảnh giảm sáng
 * Tiếp tục làm các thực nghiệm mobileNetV3 + ảnh giảm sáng
+
+## Ngày 04/05/2025
+
+### Hành trình hôm nay
+
+* Thực nghiệm mobileNetV3 + thuật toán + ảnh giảm sáng
+* Thực nghiệm mobileNetV3 + ảnh giảm sáng
+
+### Kết quả
+
+* Mô hình chạy được 60.17%. (đối với mobileNetV3 + thuật toán + ảnh giảm sáng)
+* Mô hình chạy được 58.86%. (đối với mobileNetV3 + ảnh giảm sáng)
+
+### Kế hoạch tiếp theo
+
+* Kiểm tra lại bài tập 7, và hoàn thiện làm bài tập 7 (đề trong classroom)
+* Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo cuồi kì.
