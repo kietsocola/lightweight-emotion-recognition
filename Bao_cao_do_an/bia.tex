@@ -1,0 +1,46 @@
+\begin{titlepage}
+    \begin{tikzpicture}[remember picture, overlay]
+        % Vẽ khung trang trí gần mép trang
+        \draw[thick, rounded corners, draw=blue!50!black] 
+            ([shift={(1cm,-1cm)}]current page.north west) 
+            rectangle 
+            ([shift={(-1cm,1cm)}]current page.south east);
+        % Vẽ khung bên trong (tùy chọn)
+        \draw[dashed, draw=red!70!black] 
+            ([shift={(1.5cm,-1.5cm)}]current page.north west) 
+            rectangle 
+            ([shift={(-1.5cm,1.5cm)}]current page.south east);
+    \end{tikzpicture}
+
+    \vspace*{-1cm} 
+    \centering
+
+    % Phần tiêu đề
+    {\LARGE \textbf{UỶ BAN NHÂN DÂN THÀNH PHỐ HỒ CHÍ MINH}} \\[0.5cm] % Tạo khoảng cách giữa dòng đầu và dòng sau
+    {\Large \textbf{\underline{TRƯỜNG ĐẠI HỌC SÀI GÒN}}} \\[1cm]
+
+    % Chèn logo
+    \includegraphics[width=4cm]{./img/logo.png} \\[1cm]
+
+    % Tiêu đề luận văn
+    {\huge \textbf{NHẬN DIỆN BIỂU CẢM KHUÔN MẶT TRONG ĐIỀU KIỆN ÁNH SÁNG YẾU SỬ DỤNG CNN NHẸ KẾT HỢP KỸ THUẬT TĂNG CƯỜNG DỮ LIỆU THÍCH ỨNG}} \\[1.5cm]
+
+    % Mô tả luận văn
+    {\Large \textbf{LUẬN VĂN MÔN HỌC NCKH TRONG CNTT}} \\[0.5cm]
+    {\Large NGÀNH: CÔNG NGHỆ THÔNG TIN} \\[1cm]
+
+    % Thông tin nhóm sinh viên
+    \textbf{Nhóm sinh viên thực hiện:} \\[0.5cm]
+    \begin{tabular}{l l}
+        \textbf{Họ và tên} & \textbf{MSSV} \\ 
+        Văn Tuấn Kiệt & 3122410202 \\ 
+        Mai Phúc Lâm & 3122410207 \\ 
+        Nguyễn Đức Duy Lâm & 3122410208 \\ 
+        Nguyễn Hữu Lộc & 3122410213 \\ 
+    \end{tabular}
+    \\[1cm]  % Thêm khoảng cách giữa bảng và phần tiếp theo
+    % Thông tin giáo viên hướng dẫn
+    \textbf{Giáo viên hướng dẫn:} Đỗ Như Tài \\[0.5cm]
+    % Ngày tháng
+    \textbf{TP.HCM, 2025}
+\end{titlepage}

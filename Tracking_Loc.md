@@ -445,3 +445,17 @@ Làm lại bài tập số 3
 
 * Kiểm tra lại bài tập 7, và hoàn thiện làm bài tập 7 (đề trong classroom)
 * Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo cuồi kì.
+
+## Ngày 07/05/2025
+
+### Hành trình hôm nay
+
+* Chia bố cục cuốn báo cáo
+
+### Kết quả
+
+* Hoàn thành chia bố cục
+
+### Kế hoạch tiếp theo
+
+* Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.
