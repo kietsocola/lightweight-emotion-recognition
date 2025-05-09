@@ -170,3 +170,11 @@
 - Chương 21: Bài toán phân loại nhị phân điển hình, như phân loại bệnh tiểu đường (Pima Indians dataset), với các kỹ thuật như k-fold cross-validation, ROC AUC, confusion matrix...
 ### Kế hoạch tiếp theo
 - Tiến hành ôn tập lại những thứ đã làm trong đồ án, chuẩn bị vấn đáp
+
+## Ngày 07/05/2025
+### Hành trình hôm nay
+- Viết chương 1 giới thiệu của cuốn báo cáo cuối kì
+### Kết quả
+- Viết được các phần: Lý do chọn đề tài, vấn đề nghiên cứu, mục tiêu nghiên cứu, câu hỏi nghiên cứu, phạm vi nghiên cứu
+### Kế hoạch tiếp theo
+- Tiến hành ôn tập lại những thứ đã làm trong đồ án, chuẩn bị vấn đáp
