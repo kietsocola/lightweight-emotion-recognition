@@ -473,3 +473,17 @@ Làm lại bài tập số 3
 ### Kế hoạch tiếp theo
 
 * Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.
+
+## Ngày 09/05/2025
+
+### Hành trình hôm nay
+
+* Viết tiếp báo cáo chương 3 - bổ sung thêm phần EDA
+
+### Kết quả
+
+* Tạm xong được chương 3 - còn cần bổ sung thêm ý nghĩa EDA, lọc ý trùng, chỉnh lại bố cục một chút nữa
+
+### Kế hoạch tiếp theo
+
+* Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.
