@@ -10,29 +10,35 @@
         <dcterms:isPartOf>
            <bib:Newspaper></bib:Newspaper>
         </dcterms:isPartOf>
-        <link:link rdf:resource="#item_37"/>
         <link:link rdf:resource="#item_133"/>
+        <link:link rdf:resource="#item_77"/>
+        <link:link rdf:resource="#item_126"/>
         <link:link rdf:resource="#item_35"/>
         <link:link rdf:resource="#item_42"/>
         <link:link rdf:resource="#item_147"/>
-        <link:link rdf:resource="#item_43"/>
-        <link:link rdf:resource="#item_44"/>
-        <link:link rdf:resource="#item_126"/>
-        <link:link rdf:resource="#item_33"/>
         <link:link rdf:resource="#item_118"/>
-        <link:link rdf:resource="#item_77"/>
+        <link:link rdf:resource="#item_43"/>
+        <link:link rdf:resource="#item_37"/>
+        <link:link rdf:resource="#item_44"/>
+        <link:link rdf:resource="#item_33"/>
         <dc:title>paper</dc:title>
     </bib:Article>
-    <z:Attachment rdf:about="#item_37">
-        <z:itemType>attachment</z:itemType>
-        <rdf:resource rdf:resource="files/37/Duhok Ppolytechnic University et al. - 2021 - Facial Expression Recognition Based on Deep Learning Convolution Neural Network A Review.pdf"/>
-        <dc:title>(Real time)Duhok Ppolytechnic University et al. - 2021 - Facial Expression Recognition Based on Deep Learning Convolution Neural Network A Review</dc:title>
-        <link:type>application/pdf</link:type>
-    </z:Attachment>
     <z:Attachment rdf:about="#item_133">
         <z:itemType>attachment</z:itemType>
         <rdf:resource rdf:resource="files/133/[thesis] pham_qui_luan_emotion.pdf"/>
         <dc:title>[thesis] pham_qui_luan_emotion</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_77">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/77/Xie et al. - 2025 - A joint learning method for low-light facial expression recognition.pdf"/>
+        <dc:title>A joint learning method for low-light facial expression recognition</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_126">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/126/Liang et al. - 2023 - A lightweight method for face expression recognition based on improved MobileNetV3.pdf"/>
+        <dc:title>A lightweight method for face expression recognition based on improved MobileNetV3</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
     <z:Attachment rdf:about="#item_35">
@@ -53,10 +59,22 @@
         <dc:title>Emotion-Recognition-on-FER-2013-Face-Images-Using-Fine-Tuned-VGG-16</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
+    <z:Attachment rdf:about="#item_118">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/118/S. Swapna Rani - 2024 - Enhancing Facial Recognition Accuracy in Low-Light Conditions Using Convolutional Neural Networks.pdf"/>
+        <dc:title>Enhancing Facial Recognition Accuracy in Low-Light Conditions Using Convolutional Neural Networks</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
     <z:Attachment rdf:about="#item_43">
         <z:itemType>attachment</z:itemType>
         <rdf:resource rdf:resource="files/43/Facial Emotion Recognition State of the Art Performance on FER2013.pdf"/>
         <dc:title>Facial Emotion Recognition: State of the Art Performance on FER2013</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/37/Duhok Ppolytechnic University et al. - 2021 - Facial Expression Recognition Based on Deep Learning Convolution Neural Network A Review.pdf"/>
+        <dc:title>Facial Expression Recognition Based on Deep Learning Convolution Neural Network A Review</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
     <z:Attachment rdf:about="#item_44">
@@ -65,28 +83,10 @@
         <dc:title>Facial Expression Recognition with Deep Learning</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
-    <z:Attachment rdf:about="#item_126">
-        <z:itemType>attachment</z:itemType>
-        <rdf:resource rdf:resource="files/126/Liang et al. - 2023 - A lightweight method for face expression recognition based on improved MobileNetV3.pdf"/>
-        <dc:title>Liang et al. - 2023 - A lightweight method for face expression recognition based on improved MobileNetV3</dc:title>
-        <link:type>application/pdf</link:type>
-    </z:Attachment>
     <z:Attachment rdf:about="#item_33">
         <z:itemType>attachment</z:itemType>
         <rdf:resource rdf:resource="files/33/Research on facial expression recognition algorithm based on improved MobileNetV3.pdf"/>
         <dc:title>Research on facial expression recognition algorithm based on improved MobileNetV3</dc:title>
-        <link:type>application/pdf</link:type>
-    </z:Attachment>
-    <z:Attachment rdf:about="#item_118">
-        <z:itemType>attachment</z:itemType>
-        <rdf:resource rdf:resource="files/118/S. Swapna Rani - 2024 - Enhancing Facial Recognition Accuracy in Low-Light Conditions Using Convolutional Neural Networks.pdf"/>
-        <dc:title>S. Swapna Rani - 2024 - Enhancing Facial Recognition Accuracy in Low-Light Conditions Using Convolutional Neural Networks</dc:title>
-        <link:type>application/pdf</link:type>
-    </z:Attachment>
-    <z:Attachment rdf:about="#item_77">
-        <z:itemType>attachment</z:itemType>
-        <rdf:resource rdf:resource="files/77/Xie et al. - 2025 - A joint learning method for low-light facial expression recognition.pdf"/>
-        <dc:title>Xie et al. - 2025 - A joint learning method for low-light facial expression recognition</dc:title>
         <link:type>application/pdf</link:type>
     </z:Attachment>
 </rdf:RDF>
