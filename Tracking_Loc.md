@@ -445,3 +445,45 @@ Làm lại bài tập số 3
 
 * Kiểm tra lại bài tập 7, và hoàn thiện làm bài tập 7 (đề trong classroom)
 * Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo cuồi kì.
+
+## Ngày 07/05/2025
+
+### Hành trình hôm nay
+
+* Chia bố cục cuốn báo cáo
+
+### Kết quả
+
+* Hoàn thành chia bố cục
+
+### Kế hoạch tiếp theo
+
+* Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.
+
+## Ngày 08/05/2025
+
+### Hành trình hôm nay
+
+* Viết báo cáo chương 3
+
+### Kết quả
+
+* Tạm xong được cái dàn ý chương 3, cần fix về mặt nội dung và bổ sung thêm phần EDA
+
+### Kế hoạch tiếp theo
+
+* Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.
+
+## Ngày 09/05/2025
+
+### Hành trình hôm nay
+
+* Viết tiếp báo cáo chương 3 - bổ sung thêm phần EDA
+
+### Kết quả
+
+* Tạm xong được chương 3 - còn cần bổ sung thêm ý nghĩa EDA, lọc ý trùng, chỉnh lại bố cục một chút nữa
+
+### Kế hoạch tiếp theo
+
+* Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.

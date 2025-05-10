@@ -160,3 +160,21 @@
 - Cách sử dụng phương pháp tổng hợp và điều chỉnh phương pháp tổng hợp để cải thiện hiệu suất mô hình.
 ### Kế hoạch tiếp theo
 - Làm slide và điều chỉnh mô hình MobilenetV3
+
+## Ngày 05/05/2025
+### Hành trình hôm nay
+- Hoàn thành tóm tắt những gì đã học được trong sách Machine Learning chương 19, 20, 21
+### Kết quả
+- Chương 19: Hướng dẫn cách triển khai một dự án machine learning đầu tiên theo từng bước cụ thể — từ load dữ liệu, phân tích sơ bộ, lựa chọn thuật toán, đánh giá mô hình đến dự đoán đầu ra.
+- Chương 20: Trường hợp thực hành cụ thể với bài toán hồi quy, sử dụng dữ liệu như Boston Housing để dự đoán giá nhà, bao gồm xử lý dữ liệu, lựa chọn mô hình, đánh giá lỗi (MAE, MSE...).
+- Chương 21: Bài toán phân loại nhị phân điển hình, như phân loại bệnh tiểu đường (Pima Indians dataset), với các kỹ thuật như k-fold cross-validation, ROC AUC, confusion matrix...
+### Kế hoạch tiếp theo
+- Tiến hành ôn tập lại những thứ đã làm trong đồ án, chuẩn bị vấn đáp
+
+## Ngày 07/05/2025
+### Hành trình hôm nay
+- Viết chương 1 giới thiệu của cuốn báo cáo cuối kì
+### Kết quả
+- Viết được các phần: Lý do chọn đề tài, vấn đề nghiên cứu, mục tiêu nghiên cứu, câu hỏi nghiên cứu, phạm vi nghiên cứu
+### Kế hoạch tiếp theo
+- Tiến hành ôn tập lại những thứ đã làm trong đồ án, chuẩn bị vấn đáp
