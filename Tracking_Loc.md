@@ -487,3 +487,18 @@ Làm lại bài tập số 3
 ### Kế hoạch tiếp theo
 
 * Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.
+
+
+## Ngày 13/05/2025
+
+### Hành trình hôm nay
+
+* Viết tiếp báo cáo chương 3 - bổ sung ý nghĩa cho biểu đồ
+
+### Kết quả
+
+* Xong chương 3
+
+### Kế hoạch tiếp theo
+
+* Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.

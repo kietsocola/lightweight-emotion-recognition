@@ -30,12 +30,22 @@
 % \usepackage[fontsize=13pt]{scrextend} 
 
 \usepackage{float}
+\usepackage{titlesec}
+
 
 % Định dạng đoạn văn
 \setlength{\parindent}{1.27cm} % Thụt lề đầu dòng 1.27cm
 \setlength{\parskip}{6pt} % Khoảng cách giữa các đoạn
 \onehalfspacing % Giãn dòng 1.5
 
+\titleformat{\section}
+  {\Large\bfseries}{\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\large\bfseries}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalsize\bfseries}{\thesubsubsection}{1em}{}
 
 \begin{document}
 
