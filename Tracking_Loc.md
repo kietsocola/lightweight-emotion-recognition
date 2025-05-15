@@ -488,7 +488,6 @@ Làm lại bài tập số 3
 
 * Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.
 
-
 ## Ngày 13/05/2025
 
 ### Hành trình hôm nay
@@ -498,6 +497,21 @@ Làm lại bài tập số 3
 ### Kết quả
 
 * Xong chương 3
+
+### Kế hoạch tiếp theo
+
+* Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.
+
+
+## Ngày 15/05/2025
+
+### Hành trình hôm nay
+
+* làm slide báo cáo
+
+### Kết quả
+
+* Xong slide
 
 ### Kế hoạch tiếp theo
 
