@@ -235,6 +235,22 @@
  
 ### Kế hoạch tiếp theo
 
--   TIếp tục kế hoạch thực nghiêm
 -   Viết báo cáo
 -   Ghi video thuyết slide
+
+## Ngày 17/05/2025
+
+### Hành trình hôm nay
+
+-   Viết báo cáo
+-   Ghi video thuyết slide
+
+### Kết quả
+
+-
+ 
+### Kế hoạch tiếp theo
+
+-   Xem lại lý thuyết
+-   Sửa báo cáo
+-   Nộp đò án
