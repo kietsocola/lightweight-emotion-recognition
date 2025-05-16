@@ -1,0 +1,16 @@
+
+{\LARGE \textbf{TÓM TẮT}} \\[1cm]
+
+Nhận diện biểu cảm khuôn mặt (Facial Expression Recognition - FER) trong điều kiện ánh sáng yếu là một thách thức lớn trong lĩnh vực thị giác máy tính, đặc biệt khi triển khai trên các thiết bị nhúng với tài nguyên hạn chế.
+
+Nghiên cứu này đề xuất một phương pháp hiệu quả sử dụng mạng nơ-ron tích chập nhẹ (Convolutional Neural Network - CNN) MobileNetV3 kết hợp với kỹ thuật tăng cường dữ liệu thích ứng để cải thiện hiệu suất FER trong điều kiện ánh sáng yếu.
+
+Pipeline xử lý ảnh thích ứng được thiết kế để tự động điều chỉnh các kỹ thuật tiền xử lý (gamma correction, CLAHE, contrast stretching) dựa trên đặc trưng ánh sáng của từng ảnh đầu vào.
+
+Thí nghiệm được thực hiện trên tập dữ liệu FER-2013, với các ảnh ánh sáng yếu được mô phỏng.
+
+Kết quả cho thấy mô hình MobileNetV3 đạt độ chính xác 61.55\% khi kết hợp tăng cường dữ liệu thích ứng, gần tương đương với hiệu suất trên tập dữ liệu gốc (61.63\%), trong khi mô hình ResNet18 đạt 67.48\%.
+
+Phương pháp đề xuất không chỉ cải thiện độ chính xác trong điều kiện ánh sáng yếu mà còn giảm yêu cầu tài nguyên tính toán, phù hợp cho các ứng dụng thực tế như camera giám sát hoặc thiết bị IoT.
+
+Nghiên cứu cũng so sánh hiệu suất giữa MobileNetV3 và ResNet18, nhấn mạnh ưu điểm của mô hình nhẹ về tốc độ và kích thước, đồng thời đề xuất hướng phát triển cho các nghiên cứu tiếp theo.

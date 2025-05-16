@@ -173,3 +173,68 @@
 -   Làm bài tập machinglearning 
 -   Thực hiện kế hoạch thực nghiệm
 
+
+## Ngày 29/04/2025
+
+### Hành trình hôm nay
+
+-   Chạy mô  hình resnet18 cơ bản
+-   Làm BT7 ghi lại những điều đã học sau khi làm machinelearning
+
+### Kết quả
+
+-   Kết quả đạt 66% với 10 epoch trên mo hình resnet18 với tập fer2013(bản V1)
+-   Đã ghi lại những điều đã học sau khi làm machinelearning
+ 
+### Kế hoạch tiếp theo
+
+-   TIếp tục kế hoạch thực nghiêm
+
+## Ngày 30/04/2025
+
+### Hành trình hôm nay
+
+-   Chạy mô  hình resnet18 cơ bản
+
+### Kết quả
+
+-   Kết quả đạt 67% với 20 epoch trên mo hình resnet18 với tập fer2013(bản V2)
+-   Đã ghi lại những điều đã học sau khi làm machinelearning
+ 
+### Kế hoạch tiếp theo
+
+-   TIếp tục kế hoạch thực nghiêm
+
+
+## Ngày 1/05/2025
+
+### Hành trình hôm nay
+
+-   Chạy mô  hình resnet18 cơ bản với tập fer2013 đã random ảnh ánh sáng yêu
+
+### Kết quả
+
+-   Kết quả đạt trung bình 67% với 20 epoch trên mo hình resnet18 với tập fer2013 đã random ánh sáng yếu  kết hợp với kĩ thuật tăng cường(Bản V3 ,Bản V4)
+-   Kết quả đạt trung bình 67% với 20 epoch trên mo hình resnet18 với tập fer2013 đã random ánh sáng yếu (Bản V6)
+ 
+### Kế hoạch tiếp theo
+
+-   TIếp tục kế hoạch thực nghiệm
+-   Viết báo cáo
+
+## Ngày 10/05/2025
+
+### Hành trình hôm nay
+
+-   TIếp tục kế hoạch thực nghiệm
+-   Viết báo cáo
+
+### Kết quả
+
+- Viết báo cáo về phần thực nghiệm 
+ 
+### Kế hoạch tiếp theo
+
+-   TIếp tục kế hoạch thực nghiêm
+-   Viết báo cáo
+-   Ghi video thuyết slide
