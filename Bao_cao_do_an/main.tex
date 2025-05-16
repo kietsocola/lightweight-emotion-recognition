@@ -31,6 +31,7 @@
 
 \usepackage{float}
 \usepackage{titlesec}
+\usepackage{booktabs}
 
 
 % Định dạng đoạn văn
@@ -56,9 +57,14 @@
 \begingroup
 \fontsize{13pt}{18pt}\selectfont
 
-\begin{center}
-    {\LARGE \textbf{BÁO CÁO LUẬN VĂN}} \\[1cm]
-\end{center}
+% \begin{center}
+%     {\LARGE \textbf{BÁO CÁO LUẬN VĂN}} \\[1cm]
+% \end{center}
+\input{cam_on.tex}
+\newpage 
+
+\input{abtract.tex}
+\newpage 
 
 \input{01_tong_quan_van_de.tex}
 
@@ -70,6 +76,7 @@
 
 \input{05_ket_luan_va_huong_phat_trien}
 
+\newpage 
 \input{06_tai_lieu_tham_khao}
 
 \endgroup
