@@ -165,13 +165,6 @@ Khi huấn luyện trên tập FER2013 gốc, mô hình đạt độ chính xác
 Điều này cho thấy rằng các kỹ thuật tăng cường dữ liệu phù hợp có thể giúp mô hình thích nghi tốt hơn với điều kiện ánh sáng kém, nhưng cần được áp dụng và điều chỉnh một cách hợp lý để tránh làm nhiễu thông tin đầu vào.
 
 
-% \begin{figure}[H]
-% \centering
-% \includegraphics[width=1\textwidth]{img/confusionMatrixMobilenetV3.png}  % thay bằng tên file ảnh
-% \caption{Ma trận nhầm lẫn}
-% \end{figure}
-
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=1\textwidth]{img/confusionMatrixMobilenetV3.png}
@@ -246,28 +239,6 @@ Ngược lại, các cảm xúc như \textit{Fear}, \textit{Sad} và \textit{Dis
 Những kết quả này gợi ý rằng việc cải thiện mô hình có thể tập trung vào việc xử lý mất cân bằng lớp, sử dụng dữ liệu tăng cường phù hợp và áp dụng kỹ thuật học sâu nâng cao để tăng cường khả năng phân biệt giữa các cảm xúc dễ gây nhầm lẫn.
 
 
-
-% \begin{table}[H]
-% \centering
-% \rowcolors{2}{gray!20}{white}  % tô xen kẽ từ dòng 2
-% \begin{tabular}{|>{\raggedright\arraybackslash}p{4cm}|l|l|l|l|}
-% \hline
-% \rowcolor{gray!40} \textbf{Tên kiến trúc} & \textbf{Accuracy (\%)} & \textbf{F1-score (\%)} & \textbf{Time infer (ms)} & \textbf{Size (MB)} \\
-% \hline
-% MobileNetV3Small & -- & -- & -- & -- \\
-% ResNet18 & 67.23 & 67 & 3.44 & 42.73 \\
-% MobileNetV3Small + FER2013 LLI  & -- & -- & -- & -- \\
-% ResNet18 + FER2013 LLI  & 67.04 & 67 & 3.18 & 42.72 \\
-% MobileNetV3Small +  FER2013 LLI +  adaptive augmentation& -- & -- & -- & -- \\
-% ResNet18 +  FER2013 LLI +  adaptive augmentation& 67.48 & 67 & 2.91 & 42.72 \\
-% \hline
-% \end{tabular}
-% \caption{Kết quả tổng thể}
-% \end{table}
-
-
-
-
 \subsection{Đánh giá, giải thích kết quả nghiên cứu}
 
 \begin{table}[H]
@@ -304,8 +275,34 @@ Bảng trên tổng hợp các chỉ số chính của các mô hình thử nghi
 
 Việc lựa chọn mô hình phụ thuộc vào mục tiêu ứng dụng cụ thể. Nếu ưu tiên độ chính xác và khả năng xử lý đa dạng điều kiện ánh sáng, ResNet18 là lựa chọn tối ưu. Trong khi đó, MobileNetV3Small phù hợp cho các ứng dụng cần tối ưu tài nguyên và tốc độ xử lý. Bên cạnh đó, áp dụng kỹ thuật tăng cường dữ liệu thích ứng được khuyến khích để cải thiện độ bền mô hình trong các môi trường ánh sáng thay đổi, giúp tăng khả năng nhận diện cảm xúc chính xác và ổn định hơn.
 
+\subsection{So sánh với các nghiên cứu trước}
+Để đánh giá tính hiệu quả và tính mới của phương pháp đề xuất, chúng tôi so sánh pipeline sử dụng MobileNetV3-Small kết hợp kỹ thuật tăng cường dữ liệu thích ứng với các phương pháp nhận diện biểu cảm khuôn mặt (FER) trong điều kiện ánh sáng yếu được đề cập trong các nghiên cứu trước. Bảng~\ref{tab:compare_sota} tổng hợp các chỉ số hiệu suất, thời gian suy luận, và yêu cầu tài nguyên của phương pháp đề xuất so với các phương pháp tiêu biểu.
 
+\begin{table}[H]
+\centering
+\caption{So sánh phương pháp đề xuất với các nghiên cứu trước}
+\label{tab:compare_sota}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{5cm}cccc@{}}
+\toprule
+\textbf{Phương pháp} & \textbf{Accuracy (\%)} & \textbf{F1-score (\%)} & \textbf{Thời gian (ms)} & \textbf{Kích thước (MB)} \\ \midrule
+VGGNet~\cite{goodfellow2014} & 70.5 & 69.0 & 10.2 & 500+ \\
+InceptionNet~\cite{goodfellow2014} & 72.3 & 71.0 & 8.5 & 200+ \\
+EnlightenGAN~\cite{zhang2019b} & 68.0 & 66.5 & 15.0 & 1000+ \\
+RetinexNet~\cite{wang2022} & 65.5 & 64.0 & 12.0 & 800+ \\
+ResNet18 + FER2013 LLI + adaptive augmentation (chúng tôi thực nghiệm) & 67.48 & 67.0 & 2.91 & 42.72 \\
+\textbf{MobileNetV3-Small + FER2013 LLI + adaptive augmentation (đề xuất)} & 61.55 & 60.0 & 2.12 & 13.54 \\ \bottomrule
+\end{tabular}
+\end{table}
 
+\textbf{Nhận xét:}
+\begin{itemize}
+    \item \textbf{Hiệu suất nhận diện}: Các mô hình nặng như VGGNet và InceptionNet đạt độ chính xác cao hơn (70.5--72.3\%) trên tập FER-2013 trong điều kiện ánh sáng bình thường~\cite{goodfellow2014}. Tuy nhiên, trong điều kiện ánh sáng yếu (LLI), hiệu suất của các mô hình này thường giảm đáng kể (ước tính giảm 10--20\%) do thiếu tiền xử lý thích ứng~\cite{mollahosseini2016}. Phương pháp đề xuất đạt độ chính xác 61.55\% trong điều kiện ánh sáng yếu, thấp hơn VGGNet và InceptionNet nhưng cải thiện 2.7\% so với MobileNetV3-Small không tăng cường (58.86\%) và gần tương đương với hiệu suất trên tập gốc (61.63\%).
+    \item \textbf{Phương pháp dựa trên GAN}: EnlightenGAN~\cite{zhang2019b} và RetinexNet~\cite{wang2022} cải thiện chất lượng ảnh ánh sáng yếu nhưng đạt độ chính xác thấp hơn (65.5--68.0\%) và yêu cầu tài nguyên tính toán lớn (kích thước mô hình 800--1000 MB, thời gian suy luận 12--15 ms). Phương pháp đề xuất sử dụng các kỹ thuật đơn giản (gamma correction, CLAHE) đạt hiệu suất tương đối cạnh tranh (61.55\%) với tài nguyên thấp hơn đáng kể (13.54 MB, 2.12 ms).
+    \item \textbf{Thời gian suy luận và kích thước mô hình}: So với ResNet18 (2.91 ms, 42.72 MB), MobileNetV3-Small có thời gian suy luận nhanh hơn (2.12 ms) và kích thước nhỏ hơn (13.54 MB), phù hợp hơn cho các thiết bị nhúng. Các mô hình như VGGNet và InceptionNet có thời gian suy luận dài (8.5--10.2 ms) và kích thước lớn (200--500 MB), không khả thi cho ứng dụng thực tế trên thiết bị hạn chế tài nguyên.
+    \item \textbf{Khả năng triển khai thực tế}: Pipeline tăng cường dữ liệu thích ứng của phương pháp đề xuất tự động điều chỉnh các kỹ thuật tiền xử lý (gamma correction, CLAHE, contrast stretching) dựa trên đặc trưng ánh sáng, giúp cải thiện độ bền trong môi trường ánh sáng yếu mà không cần phần cứng cao cấp. Ngược lại, các phương pháp như EnlightenGAN và RetinexNet yêu cầu GPU mạnh, hạn chế khả năng triển khai trên camera giám sát hoặc thiết bị IoT.
+\end{itemize}
+
+\textbf{Kết luận}: Phương pháp đề xuất không đạt độ chính xác cao nhất so với các mô hình nặng như VGGNet hay InceptionNet trong điều kiện ánh sáng bình thường. Tuy nhiên, trong điều kiện ánh sáng yếu, phương pháp này cung cấp sự cân bằng tối ưu giữa hiệu suất (61.55\%), tốc độ suy luận (2.12 ms), và kích thước mô hình (13.54 MB), vượt trội so với các phương pháp dựa trên GAN về tính khả thi triển khai. So với ResNet18, phương pháp đề xuất phù hợp hơn cho các ứng dụng yêu cầu tài nguyên thấp, chẳng hạn như camera giám sát hoặc thiết bị IoT. Những kết quả này khẳng định tính mới của pipeline tăng cường dữ liệu thích ứng trong việc cải thiện độ bền của mô hình FER trong điều kiện ánh sáng yếu.
 
 \subsection{Nêu ý nghĩa thực tiễn của nghiên cứu}
 \begin{itemize}
