@@ -84,6 +84,15 @@ Tiếp theo, giai đoạn học biểu cảm sử dụng mô hình \textit{Mobil
 Cuối cùng, mô hình được đánh giá trên tập kiểm thử với và không có áp dụng kỹ thuật tăng cường ảnh. Các chỉ số đánh giá bao gồm Accuracy, Precision, Recall, F1-score và ma trận nhầm lẫn (Confusion Matrix). Kết quả mô hình sẽ được so sánh với một mô hình baseline không áp dụng tăng cường ảnh nhằm đánh giá hiệu quả thực sự của pipeline đề xuất.
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{img/pineline.jpg} % Đường dẫn tương đối
+    \caption{Pine line đề xuất}
+    \label{fig:pineline}
+\end{figure}
+
+Hình~\ref{fig:pineline} cho thấy pipeline đề xuất cho hệ thống nhận diện cảm xúc khuôn mặt. Dữ liệu ảnh đầu vào được tăng cường bằng cách điều chỉnh độ sáng nhằm cải thiện khả năng nhận diện trong các điều kiện ánh sáng khác nhau. Sau đó, ảnh được đưa vào mô hình MobileNetV3 để trích xuất đặc trưng và phân loại cảm xúc đầu ra.
+
 \subsection{Phân tích điểm mạnh, điểm yếu của các nghiên cứu trước và hướng kế thừa}
 
 \subsubsection{Điểm mạnh}
