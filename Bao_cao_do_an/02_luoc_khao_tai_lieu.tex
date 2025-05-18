@@ -18,8 +18,10 @@ MobileNetV3 (Howard et al., 2019) là CNN nhẹ, tối ưu cho thiết bị di �
     \centering
     \includegraphics[width=0.7\textwidth]{img/mobinetv3.png} % Đường dẫn tương đối
     \caption{Mô hình MobileNetV3.}
-    \label{fig:emotion_distribution}
+    \label{fig:emotion_distribution11}
 \end{figure}
+
+Hình ~\ref{fig:emotion_distribution11}: giải thích cấu trúc một khối MobileNetV3, được xây dựng dựa trên kiến trúc Inverted Residual Block của MobileNetV2, nhưng có thêm mô-đun Squeeze-and-Excitation (SE) để nâng cao độ chính xác. Trong khối này, nhánh chính gồm ba lớp: 1×1 convolution (Expansion), 3×3 depthwise convolution, và 1×1 convolution (Projection). Nhánh phụ SE được chèn vào giữa, gồm Global Average Pooling, hai lớp fully connected (FC → ReLU → FC → Hard-Sigmoid), rồi nhân với đầu vào để thực hiện điều chỉnh trọng số theo ngữ cảnh toàn cục. Kiến trúc này giúp mô hình nhẹ, nhanh và hiệu quả hơn trong việc trích xuất đặc trưng, đặc biệt phù hợp với thiết bị di động hoặc nhúng.
 
 
 \subsection{Cơ sở lý thuyết của nghiên cứu}
@@ -177,13 +179,30 @@ Do đó, nghiên cứu này đề xuất một thuật toán tăng cường dữ
 \end{figure}
 
 
-    \begin{figure}[H]
+
+   
+\end{itemize}
+
+    
+Đoạn code trên làm nhiệm vụ tăng cường ảnh thích ứng dựa theo độ sáng trung bình của ảnh đầu vào. Cụ thể, ảnh đầu vào sẽ được chuyển sang thang xám để tính giá trị cường độ sáng trung bình (mean intensity). Dựa vào ngưỡng định sẵn T1 và T2, ảnh sẽ được xử lý theo ba trường hợp:
+\begin{itemize}[]
+     \item Nếu ảnh quá tối ($\mu < T1$): áp dụng gamma correction với hệ số gamma thấp.
+     \item Nếu ảnh hơi tối (T1 <= $\mu < T2$): dùng gamma correction với hệ số trung bình.
+     \item Nếu ảnh đủ sáng ($\mu >= T2$): dùng contrast stretching để cải thiện độ tương phản.
+\end{itemize}
+    
+Ảnh sau khi tăng cường sẽ được hiển thị song song với ảnh gốc và lưu ra tệp tin mới.
+
+
+ \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{img/anhsautangcuong.png} % Đường dẫn tương đối
     \caption{Ảnh trước và sau khi tăng cường}
-    \label{fig:emotion_distribution}
+    \label{fig:emotion_distribution22}
 \end{figure}
-\end{itemize}
+
+Hình~\ref{fig:emotion_distribution22} thể hiện kết quả xử lý ảnh tối bằng phương pháp Gamma Correction. Ảnh bên trái là ảnh gốc trong điều kiện ánh sáng yếu, với nhiều chi tiết khuôn mặt bị chìm trong vùng tối, gây khó khăn cho việc nhận diện. Sau khi áp dụng Gamma Correction (ảnh bên phải), độ sáng tổng thể được cải thiện đáng kể, các đặc trưng như mắt, tóc và đường nét khuôn mặt trở nên rõ ràng hơn. Phương pháp này giúp ảnh trở nên dễ phân tích hơn đối với các mô hình học sâu, đặc biệt trong bài toán nhận diện biểu cảm dưới điều kiện ánh sáng yếu.
+
 
 \subsubsection*{(c) Tính thích ứng của thuật toán [10]}
 Thuật toán sẽ:
