@@ -26,7 +26,120 @@ Bảng~\ref{tab:model-architecture} mô tả kiến trúc của mô hình Mobile
 Tiếp theo là hai lớp \texttt{Dense} với số lượng đơn vị lần lượt là 128 và 64, đi kèm với các lớp \texttt{Dropout} nhằm giảm hiện tượng overfitting. Cuối cùng, lớp \texttt{Dense} đầu ra có 7 đơn vị tương ứng với 7 lớp cảm xúc cần phân loại.
 
 Tổng số tham số huấn luyện của toàn bộ mô hình là khoảng 1 triệu, trong đó phần lớn nằm ở MobileNetV3Small. Việc sử dụng kiến trúc gọn nhẹ giúp mô hình đạt được hiệu quả cao mà vẫn đảm bảo tốc độ xử lý nhanh, phù hợp với các ứng dụng thực tế như trên thiết bị di động.
+\begin{center}
+\begin{longtable}{|l|c|c|}
+\caption{Cấu trúc mô hình mạng học sâu} \\
+\hline
+\textbf{Layer (type)} & \textbf{Output Shape} & \textbf{Param \#} \\
+\hline
+\endfirsthead
 
+\hline
+\textbf{Layer (type)} & \textbf{Output Shape} & \textbf{Param \#} \\
+\hline
+\endhead
+
+\hline \multicolumn{3}{r}{(tiếp trang sau)} \\
+\endfoot
+
+\hline
+\textbf{Total Params} & & \textbf{11,180,103} \\
+\textbf{Trainable Params} & & \textbf{11,180,103} \\
+\textbf{Non-trainable Params} & & \textbf{0} \\
+\hline
+\endlastfoot
+
+Conv2d-1 & [-1, 64, 112, 112] & 9,408 \\
+BatchNorm2d-2 & [-1, 64, 112, 112] & 128 \\
+ReLU-3 & [-1, 64, 112, 112] & 0 \\
+MaxPool2d-4 & [-1, 64, 56, 56] & 0 \\
+Conv2d-5 & [-1, 64, 56, 56] & 36,864 \\
+BatchNorm2d-6 & [-1, 64, 56, 56] & 128 \\
+ReLU-7 & [-1, 64, 56, 56] & 0 \\
+Conv2d-8 & [-1, 64, 56, 56] & 36,864 \\
+BatchNorm2d-9 & [-1, 64, 56, 56] & 128 \\
+ReLU-10 & [-1, 64, 56, 56] & 0 \\
+BasicBlock-11 & [-1, 64, 56, 56] & 0 \\
+Conv2d-12 & [-1, 64, 56, 56] & 36,864 \\
+BatchNorm2d-13 & [-1, 64, 56, 56] & 128 \\
+ReLU-14 & [-1, 64, 56, 56] & 0 \\
+Conv2d-15 & [-1, 64, 56, 56] & 36,864 \\
+BatchNorm2d-16 & [-1, 64, 56, 56] & 128 \\
+ReLU-17 & [-1, 64, 56, 56] & 0 \\
+BasicBlock-18 & [-1, 64, 56, 56] & 0 \\
+Conv2d-19 & [-1, 128, 28, 28] & 73,728 \\
+BatchNorm2d-20 & [-1, 128, 28, 28] & 256 \\
+ReLU-21 & [-1, 128, 28, 28] & 0 \\
+Conv2d-22 & [-1, 128, 28, 28] & 147,456 \\
+BatchNorm2d-23 & [-1, 128, 28, 28] & 256 \\
+Conv2d-24 & [-1, 128, 28, 28] & 8,192 \\
+BatchNorm2d-25 & [-1, 128, 28, 28] & 256 \\
+ReLU-26 & [-1, 128, 28, 28] & 0 \\
+BasicBlock-27 & [-1, 128, 28, 28] & 0 \\
+Conv2d-28 & [-1, 128, 28, 28] & 147,456 \\
+BatchNorm2d-29 & [-1, 128, 28, 28] & 256 \\
+ReLU-30 & [-1, 128, 28, 28] & 0 \\
+Conv2d-31 & [-1, 128, 28, 28] & 147,456 \\
+BatchNorm2d-32 & [-1, 128, 28, 28] & 256 \\
+ReLU-33 & [-1, 128, 28, 28] & 0 \\
+BasicBlock-34 & [-1, 128, 28, 28] & 0 \\
+Conv2d-35 & [-1, 256, 14, 14] & 294,912 \\
+BatchNorm2d-36 & [-1, 256, 14, 14] & 512 \\
+ReLU-37 & [-1, 256, 14, 14] & 0 \\
+Conv2d-38 & [-1, 256, 14, 14] & 589,824 \\
+BatchNorm2d-39 & [-1, 256, 14, 14] & 512 \\
+Conv2d-40 & [-1, 256, 14, 14] & 32,768 \\
+BatchNorm2d-41 & [-1, 256, 14, 14] & 512 \\
+ReLU-42 & [-1, 256, 14, 14] & 0 \\
+BasicBlock-43 & [-1, 256, 14, 14] & 0 \\
+Conv2d-44 & [-1, 256, 14, 14] & 589,824 \\
+BatchNorm2d-45 & [-1, 256, 14, 14] & 512 \\
+ReLU-46 & [-1, 256, 14, 14] & 0 \\
+Conv2d-47 & [-1, 256, 14, 14] & 589,824 \\
+BatchNorm2d-48 & [-1, 256, 14, 14] & 512 \\
+ReLU-49 & [-1, 256, 14, 14] & 0 \\
+BasicBlock-50 & [-1, 256, 14, 14] & 0 \\
+Conv2d-51 & [-1, 512, 7, 7] & 1,179,648 \\
+BatchNorm2d-52 & [-1, 512, 7, 7] & 1,024 \\
+ReLU-53 & [-1, 512, 7, 7] & 0 \\
+Conv2d-54 & [-1, 512, 7, 7] & 2,359,296 \\
+BatchNorm2d-55 & [-1, 512, 7, 7] & 1,024 \\
+Conv2d-56 & [-1, 512, 7, 7] & 131,072 \\
+BatchNorm2d-57 & [-1, 512, 7, 7] & 1,024 \\
+ReLU-58 & [-1, 512, 7, 7] & 0 \\
+BasicBlock-59 & [-1, 512, 7, 7] & 0 \\
+Conv2d-60 & [-1, 512, 7, 7] & 2,359,296 \\
+BatchNorm2d-61 & [-1, 512, 7, 7] & 1,024 \\
+ReLU-62 & [-1, 512, 7, 7] & 0 \\
+Conv2d-63 & [-1, 512, 7, 7] & 2,359,296 \\
+BatchNorm2d-64 & [-1, 512, 7, 7] & 1,024 \\
+ReLU-65 & [-1, 512, 7, 7] & 0 \\
+BasicBlock-66 & [-1, 512, 7, 7] & 0 \\
+AdaptiveAvgPool2d-67 & [-1, 512, 1, 1] & 0 \\
+Linear-68 & [-1, 7] & 3,591 \\
+
+\end{longtable}
+\end{center}
+
+Mô hình sử dụng là một biến thể của kiến trúc ResNet18 với tổng cộng \textbf{68 tầng}. Các tầng chính trong mô hình bao gồm:
+
+\begin{itemize}
+    \item \textbf{Conv2d}: Tầng tích chập, giúp trích xuất đặc trưng từ ảnh đầu vào.
+    \item \textbf{BatchNorm2d}: Chuẩn hóa các giá trị đầu ra theo batch, giúp mô hình hội tụ nhanh hơn.
+    \item \textbf{ReLU}: Hàm kích hoạt phi tuyến tính, tăng khả năng biểu diễn của mô hình.
+    \item \textbf{MaxPool2d}: Gộp cực đại, giảm kích thước không gian và giữ lại đặc trưng quan trọng.
+    \item \textbf{BasicBlock}: Khối residual trong ResNet giúp truyền gradient hiệu quả, giảm hiện tượng mất mát gradient trong mạng sâu.
+    \item \textbf{AdaptiveAvgPool2d}: Lớp pooling trung bình thích ứng, đưa kích thước về dạng cố định để chuẩn bị cho tầng fully connected.
+    \item \textbf{Linear}: Lớp kết nối đầy đủ (fully connected) để thực hiện phân loại đầu ra.
+\end{itemize}
+
+\vspace{0.5em}
+\noindent \textbf{Lớp đầu ra (Output layer)} của mô hình là \texttt{Linear-68} với \textbf{7 đơn vị đầu ra}, tương ứng với \textbf{7 lớp cảm xúc} trong bài toán phân loại (ví dụ: \textit{Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise}).
+
+\vspace{0.5em}
+\noindent \textbf{Khối BasicBlock}: ResNet18 sử dụng các khối residual (\textit{BasicBlock}) để khắc phục hiện tượng suy giảm gradient trong các mạng học sâu. Trong mô hình này, mỗi giai đoạn chứa 2 \texttt{BasicBlock}, ngoại trừ giai đoạn đầu tiên. Tổng cộng mô hình sử dụng \textbf{16 khối BasicBlock}, phù hợp với kiến trúc gốc của ResNet18.
+
+Tổng số tham số huấn luyện của toàn bộ mô hình là khoảng 11,180,103 tham số
 
 \subsection{Biểu đồ, bảng biểu, hình ảnh minh hoạ} % Section 4.2
 
@@ -50,6 +163,8 @@ Bảng~\ref{tab:training-results} trình bày độ chính xác khi huấn luy�
 Khi huấn luyện trên tập FER2013 gốc, mô hình đạt độ chính xác cao nhất là 61.63\%. Việc mô phỏng điều kiện ánh sáng yếu thông qua tập dữ liệu LLI làm giảm độ chính xác mô hình, phản ánh thách thức trong việc nhận diện cảm xúc dưới điều kiện chiếu sáng kém, giảm còn 58.86\%. Tuy nhiên, khi kết hợp LLI với phương pháp tăng cường dữ liệu thích ứng (adaptive augmentation), độ chính xác cải thiện đáng kể lên 61.55\%, gần tương đương với mô hình gốc. 
 
 Điều này cho thấy rằng các kỹ thuật tăng cường dữ liệu phù hợp có thể giúp mô hình thích nghi tốt hơn với điều kiện ánh sáng kém, nhưng cần được áp dụng và điều chỉnh một cách hợp lý để tránh làm nhiễu thông tin đầu vào.
+
+
 % \begin{figure}[H]
 % \centering
 % \includegraphics[width=1\textwidth]{img/confusionMatrixMobilenetV3.png}  % thay bằng tên file ảnh
