@@ -1,16 +1,9 @@
-
 {\LARGE \textbf{TÓM TẮT}} \\[1cm]
 
-Nhận diện biểu cảm khuôn mặt (Facial Expression Recognition - FER) trong điều kiện ánh sáng yếu là một thách thức lớn trong lĩnh vực thị giác máy tính, đặc biệt khi triển khai trên các thiết bị nhúng với tài nguyên hạn chế.
+Nhận diện biểu cảm khuôn mặt (Facial Expression Recognition - FER) trong điều kiện ánh sáng yếu là một thách thức lớn của thị giác máy tính, đặc biệt trên các thiết bị nhúng với tài nguyên hạn chế.
 
-Nghiên cứu này đề xuất một phương pháp hiệu quả sử dụng mạng nơ-ron tích chập nhẹ (Convolutional Neural Network - CNN) MobileNetV3 kết hợp với kỹ thuật tăng cường dữ liệu thích ứng để cải thiện hiệu suất FER trong điều kiện ánh sáng yếu.
+Nghiên cứu này đề xuất một phương pháp hiệu quả kết hợp mạng nơ-ron tích chập nhẹ \textbf{MobileNetV3} với kỹ thuật tăng cường dữ liệu thích ứng, nhằm nâng cao hiệu suất FER trong điều kiện ánh sáng yếu. Hệ thống xử lý ảnh được thiết kế để tự động lựa chọn các kỹ thuật tiền xử lý (gamma correction, CLAHE, contrast stretching) dựa trên đặc trưng ánh sáng đầu vào.
 
-Pipeline xử lý ảnh thích ứng được thiết kế để tự động điều chỉnh các kỹ thuật tiền xử lý (gamma correction, CLAHE, contrast stretching) dựa trên đặc trưng ánh sáng của từng ảnh đầu vào.
+Thí nghiệm trên tập dữ liệu FER-2013 với ảnh ánh sáng yếu mô phỏng cho thấy mô hình đạt độ chính xác \textbf{61.55\%}, gần tương đương với hiệu suất trên tập gốc (\textbf{61.63\%}). Trong khi đó, khi chỉ áp dụng phép giảm độ sáng, độ chính xác giảm còn \textbf{58.86\%}. Như vậy, thuật toán đề xuất giúp cải thiện gần \textbf{2.7\%}, chứng tỏ tính hiệu quả trong việc tăng độ bền mô hình trước biến thiên ánh sáng. Đối chiếu với \textbf{ResNet18} (đạt \textbf{67.48\%}), MobileNetV3 vẫn cho thấy ưu thế về tốc độ và kích thước mô hình.
 
-Thí nghiệm được thực hiện trên tập dữ liệu FER-2013, với các ảnh ánh sáng yếu được mô phỏng.
-
-Kết quả cho thấy mô hình MobileNetV3 đạt độ chính xác 61.55\% khi kết hợp tăng cường dữ liệu thích ứng, gần tương đương với hiệu suất trên tập dữ liệu gốc (61.63\%), trong khi mô hình ResNet18 đạt 67.48\%.
-
-Phương pháp đề xuất không chỉ cải thiện độ chính xác trong điều kiện ánh sáng yếu mà còn giảm yêu cầu tài nguyên tính toán, phù hợp cho các ứng dụng thực tế như camera giám sát hoặc thiết bị IoT.
-
-Nghiên cứu cũng so sánh hiệu suất giữa MobileNetV3 và ResNet18, nhấn mạnh ưu điểm của mô hình nhẹ về tốc độ và kích thước, đồng thời đề xuất hướng phát triển cho các nghiên cứu tiếp theo.
+Phương pháp này không chỉ cải thiện độ chính xác trong môi trường ánh sáng yếu mà còn phù hợp cho các ứng dụng thực tế như camera giám sát hoặc thiết bị IoT. Nghiên cứu cũng mở ra hướng phát triển cho các giải pháp FER nhẹ, thích ứng và hiệu quả hơn trong tương lai.
