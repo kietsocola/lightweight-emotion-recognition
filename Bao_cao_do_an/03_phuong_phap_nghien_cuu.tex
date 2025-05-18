@@ -52,7 +52,7 @@ Phân tích dữ liệu khám phá (EDA) được thực hiện trên tập dữ
     \label{fig:emotion_distribution}
 \end{figure}
 
-Biểu đồ Hình 1 thể hiện phân bố các nhãn cảm xúc trong tập dữ liệu FER-2013. Có thể thấy, nhãn “Happy” chiếm tỷ lệ lớn nhất với số lượng ảnh vượt trội so với các nhãn khác, cho thấy sự mất cân bằng dữ liệu. Các cảm xúc như “Neutral”, “Sad”, “Fear” và “Angry” có số lượng tương đối đồng đều, trong khi “Surprise” ít hơn và “Disgust” là cảm xúc có số lượng ảnh ít nhất. Điều này cho thấy việc huấn luyện mô hình nhận diện cảm xúc dựa trên tập dữ liệu này có thể gặp khó khăn với các nhãn có số lượng ít, đặc biệt là “Disgust”, do thiếu dữ liệu đại diện.
+Biểu đồ hình~\ref{fig:emotion_distribution} thể hiện phân bố các nhãn cảm xúc trong tập dữ liệu FER-2013. Có thể thấy, nhãn “Happy” chiếm tỷ lệ lớn nhất với số lượng ảnh vượt trội so với các nhãn khác, cho thấy sự mất cân bằng dữ liệu. Các cảm xúc như “Neutral”, “Sad”, “Fear” và “Angry” có số lượng tương đối đồng đều, trong khi “Surprise” ít hơn và “Disgust” là cảm xúc có số lượng ảnh ít nhất. Điều này cho thấy việc huấn luyện mô hình nhận diện cảm xúc dựa trên tập dữ liệu này có thể gặp khó khăn với các nhãn có số lượng ít, đặc biệt là “Disgust”, do thiếu dữ liệu đại diện.
 
 \begin{figure}[H]
     \centering
@@ -60,7 +60,7 @@ Biểu đồ Hình 1 thể hiện phân bố các nhãn cảm xúc trong tập d
     \caption{Một số hình ảnh mẫu từ tập dữ liệu FER-2013.}
     \label{fig:sample_images}
 \end{figure}
-Hình 2 cho thấy tập dữ liệu có rất nhiều biến thể về tuổi tác, góc độ, cường độ
+Hình~\ref{fig:sample_images} cho thấy tập dữ liệu có rất nhiều biến thể về tuổi tác, góc độ, cường độ
 biểu cảm, và sự xuất hiện trong môi trường thực tế
 \begin{figure}[H]
     \centering
@@ -69,7 +69,7 @@ biểu cảm, và sự xuất hiện trong môi trường thực tế
     \label{fig:pixel_distribution}
 \end{figure}
 
-Biểu đồ Hình 3 mô tả phân bố giá trị pixel trong tập dữ liệu FER-2013. Trục hoành thể hiện các giá trị pixel từ 0 đến 255, trong khi trục tung thể hiện tần suất xuất hiện tương ứng. Từ biểu đồ có thể thấy rằng các giá trị pixel được phân bố tương đối rộng và không đồng đều, với một số đỉnh rõ rệt tại các giá trị như 0, 100, 150 và 255. Điều này cho thấy dữ liệu ảnh trong FER-2013 có sự đa dạng về độ sáng và độ tương phản, phản ánh rõ đặc điểm của các biểu cảm khuôn mặt trong tập dữ liệu.
+Biểu đồ hình~\ref{fig:pixel_distribution} mô tả phân bố giá trị pixel trong tập dữ liệu FER-2013. Trục hoành thể hiện các giá trị pixel từ 0 đến 255, trong khi trục tung thể hiện tần suất xuất hiện tương ứng. Từ biểu đồ có thể thấy rằng các giá trị pixel được phân bố tương đối rộng và không đồng đều, với một số đỉnh rõ rệt tại các giá trị như 0, 100, 150 và 255. Điều này cho thấy dữ liệu ảnh trong FER-2013 có sự đa dạng về độ sáng và độ tương phản, phản ánh rõ đặc điểm của các biểu cảm khuôn mặt trong tập dữ liệu.
 
 \begin{figure}[H]
     \centering
@@ -79,7 +79,7 @@ Biểu đồ Hình 3 mô tả phân bố giá trị pixel trong tập dữ liệ
     \par\vspace{0.5cm} % Khoảng cách giữa hình và ý nghĩa
 \end{figure}
 
-Hình 4 thể hiện việc trực quan hóa tập dữ liệu FER-2013 bằng phương pháp phân tích thành phần chính (PCA). Hai thành phần chính đầu tiên được chọn để biểu diễn dữ liệu trong không gian 2 chiều, giúp giảm chiều và dễ dàng quan sát hơn. Mỗi điểm trong biểu đồ đại diện cho một ảnh, được tô màu theo nhãn cảm xúc (từ 0 đến 6). Có thể nhận thấy rằng các điểm dữ liệu phân bố khá chồng chéo nhau, cho thấy các lớp cảm xúc trong FER-2013 có sự giao thoa đáng kể và không tách biệt rõ ràng trong không gian PCA, điều này phản ánh tính chất phức tạp và khó phân biệt giữa các biểu cảm khuôn mặt.
+Hình~\ref{fig:pca_visualization} thể hiện việc trực quan hóa tập dữ liệu FER-2013 bằng phương pháp phân tích thành phần chính (PCA). Hai thành phần chính đầu tiên được chọn để biểu diễn dữ liệu trong không gian 2 chiều, giúp giảm chiều và dễ dàng quan sát hơn. Mỗi điểm trong biểu đồ đại diện cho một ảnh, được tô màu theo nhãn cảm xúc (từ 0 đến 6). Có thể nhận thấy rằng các điểm dữ liệu phân bố khá chồng chéo nhau, cho thấy các lớp cảm xúc trong FER-2013 có sự giao thoa đáng kể và không tách biệt rõ ràng trong không gian PCA, điều này phản ánh tính chất phức tạp và khó phân biệt giữa các biểu cảm khuôn mặt.
 
 
 \subsubsection{Tiền xử lý dữ liệu}
