@@ -92,7 +92,7 @@ Output: Ảnh đã tiền xử lý và nhãn biểu cảm
 - **So sánh**:
   - MobileNetV3-Small với/ không tăng cường dữ liệu.
   - ResNet18 với/ không tăng cường dữ liệu.
-  - MobileNetV3-Small so với ResNet18 và các nghiên cứu trước (VGGNet, InceptionNet, EnlightenGAN, RetinexNet).
+  - MobileNetV3-Small so với ResNet18 và các nghiên cứu trước (VGGNet, InceptionV3, CNN10, RetinexNet).
 
 ---
 
@@ -137,7 +137,7 @@ Output: Ảnh đã tiền xử lý và nhãn biểu cảm
 | ---------------------------------- | ------------ | ------------ | --------------- | ------------------ |
 | VGGNet                             | 73.06        | -            | -               | 500+               |
 | InceptionV3                        | 63,21        | 63           | -               | 200+               |
-| CNN10                              | 84.3         | 0.83         | -               | -                  |
+| CNN10                              | 84.3         | 83         | -               | -                  |
 | ResNet18 (LLI + adaptive)          | 67.48        | 67.0         | 2.91            | 42.72              |
 | MobileNetV3-Small (LLI + adaptive) | 61.55        | 60.0         | 2.12            | 13.54              |
 
