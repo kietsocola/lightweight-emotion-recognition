@@ -178,3 +178,11 @@
 - Viết được các phần: Lý do chọn đề tài, vấn đề nghiên cứu, mục tiêu nghiên cứu, câu hỏi nghiên cứu, phạm vi nghiên cứu
 ### Kế hoạch tiếp theo
 - Tiến hành ôn tập lại những thứ đã làm trong đồ án, chuẩn bị vấn đáp
+
+## Ngày 10/05/2025
+### Hành trình hôm nay
+- Phạm vi của dự án
+### Kết quả
+- Xác định được phạm vi của dự án
+### Kế hoạch tiếp theo
+- Tiến hành ôn tập lại những thứ đã làm trong đồ án, chuẩn bị vấn đáp
