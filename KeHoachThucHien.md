@@ -1,5 +1,9 @@
 # Kế hoạch dự án (SCHEDULE.md)
 
+<div style="background-color: #ffcccc; padding: 15px; border: 2px solid red; text-align: center; font-size: 1.5em; color: red; font-weight: bold;">
+⚠️ LƯU Ý: File này đã ngừng cập nhật từ tháng 03/2025. Vui lòng xem kế hoạch dự án chi tiết, phân công và chia việc trong file Excel: <a href="https://docs.google.com/spreadsheets/d/1fQEhZhOme_cUPzWFHYGgAEzErR-zbi63u4UeUeJ06Mo/edit?gid=0#gid=0">schedule.xlsx</a>
+</div>
+
 ## Tên đề tài
 
 Nhận diện biểu cảm khuôn mặt trong điều kiện ánh sáng yếu sử dụng CNN nhẹ kết hợp kỹ thuật tăng cường dữ liệu thích ứng

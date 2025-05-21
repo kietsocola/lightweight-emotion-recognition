@@ -530,3 +530,18 @@ Làm lại bài tập số 3
 ### Kế hoạch tiếp theo
 
 * Chuẩn bị tổng hợp, kiến thức, ôn lại, làm báo cáo phần của mình đã chia việc.
+
+
+## Ngày 21/05/2025
+
+### Hành trình hôm nay
+
+* Chỉnh lại readme
+
+### Kết quả
+* Xong hết tất cả
+
+### Kế hoạch tiếp theo
+* Xong
+
+> Môn học này như một chuyến đi nhẹ nhàng, không chỉ mở rộng kiến thức mà còn trau dồi tư duy sắc bén. Cảm ơn môn học đã cho mình hành trang tư duy và những phút giây thú vị trên hành trình học tập. Hy vọng kiến thức này sẽ là bước đệm vững chắc cho những dự án sắp tới và cả những thử thách mới phía trước!

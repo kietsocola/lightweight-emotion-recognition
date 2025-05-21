@@ -1,5 +1,9 @@
 # Nhận diện biểu cảm khuôn mặt trong điều kiện ánh sáng yếu sử dụng CNN nhẹ kết hợp kỹ thuật tăng cường dữ liệu thích ứng
 
+<div style="background-color: #ffcccc; padding: 15px; border: 2px solid red; text-align: center; font-size: 1.5em; color: red; font-weight: bold;">
+⚠️ LƯU Ý: File này đã ngừng cập nhật từ tháng 03/2025. Nội dung tổng quan đồ án cũng chính là nội dung bạn xem ngay khi vào repo của chúng tôi (file README.md)
+</div>
+
 ## Giới thiệu
 
 Dự án này tập trung vào việc phát triển một mô hình nhận diện biểu cảm khuôn mặt (Facial Expression Recognition - FER) trong điều kiện ánh sáng yếu, một thách thức thực tế trong các ứng dụng như giám sát an ninh, giao tiếp người-máy, và phân tích cảm xúc trong môi trường không lý tưởng. Để giải quyết vấn đề này, chúng tôi sử dụng một mạng nơ-ron tích chập (CNN) nhẹ (lightweight CNN) dựa trên kiến trúc MobileNetV3, kết hợp với kỹ thuật **tăng cường dữ liệu thích ứng (adaptive data augmentation)** để cải thiện hiệu suất mô hình trên các ảnh có ánh sáng yếu.
