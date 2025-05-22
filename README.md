@@ -14,6 +14,16 @@ Chúng tôi sử dụng **MobileNetV3-Small**, một mô hình CNN nhẹ, tối 
 | :--------------------------------------------------------------------: |
 |    **Một số khuôn mặt mẫu từ FER-2013** (7 biểu cảm)    |
 
+## 💡 EDA Dữ liệu
+
+| ![Phân bố pixel FER-2013](Img_readme/phan_bo_pixel.png) | ![Trực quan hóa PCA](Img_readme/PCA.png) |
+| :-----------------------------------------------------: | :--------------------------------------: |
+|           **Phân bố pixel FER-2013**           |      **Trực quan hóa PCA**      |
+
+- **Phân bố pixel**: Biểu đồ histogram cho thấy sự đa dạng về độ sáng và tương phản trong FER-2013, phản ánh tính phức tạp của dữ liệu.
+- **Trực quan hóa PCA**: Dữ liệu FER-2013 phân bố chồng chéo, cho thấy khó khăn trong việc tách biệt các lớp biểu cảm.
+
+
 ## 🎯 Mục tiêu nghiên cứu
 
 1. **Xây dựng pipeline tăng cường dữ liệu thích ứng**: Tự động điều chỉnh các kỹ thuật tiền xử lý ảnh dựa trên mức độ ánh sáng của từng ảnh.
@@ -115,13 +125,6 @@ Output: Ảnh đã tiền xử lý và nhãn biểu cảm
 - **ResNet18**: ~11.18 triệu tham số, kích thước 42.72 MB, thời gian suy luận 2.91 ms/ảnh.
 
 ### 3. Phân tích
-
-| ![Phân bố pixel FER-2013](Img_readme/phan_bo_pixel.png) | ![Trực quan hóa PCA](Img_readme/PCA.png) |
-| :-----------------------------------------------------: | :--------------------------------------: |
-|           **Phân bố pixel FER-2013**           |      **Trực quan hóa PCA**      |
-
-- **Phân bố pixel**: Biểu đồ histogram cho thấy sự đa dạng về độ sáng và tương phản trong FER-2013, phản ánh tính phức tạp của dữ liệu.
-- **Trực quan hóa PCA**: Dữ liệu FER-2013 phân bố chồng chéo, cho thấy khó khăn trong việc tách biệt các lớp biểu cảm.
 
 | ![Ma trận nhầm lẫn MobileNetV3](Img_readme/confusionMatrixMobilenetV3.png) | ![Ma trận nhầm lẫn ResNet18](Img_readme/confusionMatrixResnet18.png) |
 | :-------------------------------------------------------------------------: | :-------------------------------------------------------------------: |
