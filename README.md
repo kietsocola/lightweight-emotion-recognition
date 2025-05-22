@@ -23,7 +23,6 @@ Chúng tôi sử dụng **MobileNetV3-Small**, một mô hình CNN nhẹ, tối 
 - **Phân bố pixel**: Biểu đồ histogram cho thấy sự đa dạng về độ sáng và tương phản trong FER-2013, phản ánh tính phức tạp của dữ liệu.
 - **Trực quan hóa PCA**: Dữ liệu FER-2013 phân bố chồng chéo, cho thấy khó khăn trong việc tách biệt các lớp biểu cảm.
 
-
 ## 🎯 Mục tiêu nghiên cứu
 
 1. **Xây dựng pipeline tăng cường dữ liệu thích ứng**: Tự động điều chỉnh các kỹ thuật tiền xử lý ảnh dựa trên mức độ ánh sáng của từng ảnh.
@@ -52,13 +51,13 @@ Thuật toán tăng cường dữ liệu thích ứng được thiết kế đ�
 - **Bước 1: Phân tích độ sáng ảnh**:
 
   - Chuyển ảnh sang không gian màu HSV, tính giá trị trung bình kênh V (Value).
-  - Phân loại ảnh thành 3 mức độ sáng: **Tối** (V < 0.3), **Bình thường** (0.3 ≤ V ≤ 0.7), **Sáng** (V > 0.7).
+  - Phân loại ảnh thành 3 mức độ sáng: **Tối** (V < 50), **Bình thường** (50 ≤ V < 100), **Sáng** (V > 100).
 - **Bước 2: Lựa chọn kỹ thuật tiền xử lý**:
 
-  - **Nếu ảnh Tối**: Áp dụng **Gamma Correction** (\(\gamma = 0.5\)) để tăng độ sáng, sau đó áp dụng **CLAHE** để cải thiện độ tương phản cục bộ.
-  - **Nếu ảnh Bình thường**: Áp dụng **CLAHE** hoặc **Contrast Stretching** dựa trên độ tương phản histogram.
+  - **Nếu ảnh Tối**: Áp dụng **Gamma Correction** (gamma = 0.5\) để tăng độ sáng
+  - **Nếu ảnh Bình thường**: Áp dụng **Gamma Correction** (gamma = 0.8) để tăng độ sáng nhẹ hơn
   - **Nếu ảnh Sáng**: Chỉ áp dụng **Contrast Stretching** để cân bằng độ tương phản.
-- **Bước 3: Trả vè kết quả**
+- **Bước 3: Trả về kết quả**
 
   - Chuẩn hóa ảnh về kích thước 48x48 pixel và thang xám.
 
@@ -140,9 +139,9 @@ Output: Ảnh đã tiền xử lý và nhãn biểu cảm
 | ---------------------------------- | ------------ | ------------ | --------------- | ------------------ |
 | VGGNet                             | 73.06        | -            | -               | 500+               |
 | InceptionV3                        | 63,21        | 63           | -               | 200+               |
-| CNN10                              | 84.3         | 83         | -               | -                  |
+| CNN10                              | 84.3         | 83           | -               | -                  |
 | ResNet18 (LLI + adaptive)          | 67.48        | 67.0         | 2.91            | 42.72              |
-| MobileNetV3-Small (LLI + adaptive) | 61.55        | 60.0         | 2.12            | 13.54              |
+| MobileNetV3-Small (LLI + adaptive) | 61.55        | 60.0         | 2.12            | 9.59               |
 
 **Nhận xét**: Phương pháp đề xuất cân bằng tốt giữa độ chính xác, tốc độ, và kích thước mô hình, vượt trội so với các phương pháp khác về tính khả thi trên thiết bị nhúng.
 
@@ -229,12 +228,12 @@ Mọi vấn đề về kế hoạch thực nghiệm cho dự án cuối môn đ�
 
 ## 👥 Thành viên nhóm 17
 
-| Họ và tên           | Email                                                | GitHub                                                  | Website cá nhân                                                         |
-| ---------------------- | ---------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Nguyễn Hữu Lộc      | [lockbkbang@gmail.com](mailto:lockbkbang@gmail.com)     | [github.com/LocNguyenSGU](https://github.com/LocNguyenSGU) | [http://locnguyensguportfolio.store](locnguyensguportfolio.store/)     |
-| Nguyễn Đức Duy Lâm | [duylam468213@gmail.com](mailto:duylam468213@gmail.com) | [github.com/duylam15](https://github.com/duylam15)         | [porfolio-cyan-nine.vercel.app](https://porfolio-cyan-nine.vercel.app/)      |
-| Mai Phúc Lâm         | [lamkbvn@gmail.com](mailto:lamkbvn@gmail.com)           | [github.com/lamkbvn](https://github.com/lamkbvn)           | [lamkbvn.github.io/trang-ca-nhan/](https://lamkbvn.github.io/trang-ca-nhan/) |
-| Văn Tuấn Kiệt    | [vankiet27012004@gmail.com](mailto:vankiet27012004@gmail.com)         | [github.com/kietsocola](https://github.com/kietsocola)       | [kietsocola.github.io/kietsocola/](https://kietsocola.github.io/kietsocola/)                                                           |
+| Họ và tên           | Email                                                      | GitHub                                                  | Website cá nhân                                                         |
+| ---------------------- | ---------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Nguyễn Hữu Lộc      | [lockbkbang@gmail.com](mailto:lockbkbang@gmail.com)           | [github.com/LocNguyenSGU](https://github.com/LocNguyenSGU) | [http://locnguyensguportfolio.store](locnguyensguportfolio.store/)           |
+| Nguyễn Đức Duy Lâm | [duylam468213@gmail.com](mailto:duylam468213@gmail.com)       | [github.com/duylam15](https://github.com/duylam15)         | [porfolio-cyan-nine.vercel.app](https://porfolio-cyan-nine.vercel.app/)      |
+| Mai Phúc Lâm         | [lamkbvn@gmail.com](mailto:lamkbvn@gmail.com)                 | [github.com/lamkbvn](https://github.com/lamkbvn)           | [lamkbvn.github.io/trang-ca-nhan/](https://lamkbvn.github.io/trang-ca-nhan/) |
+| Văn Tuấn Kiệt       | [vankiet27012004@gmail.com](mailto:vankiet27012004@gmail.com) | [github.com/kietsocola](https://github.com/kietsocola)     | [kietsocola.github.io/kietsocola/](https://kietsocola.github.io/kietsocola/) |
 
 ## ✅ Ghi chú
 

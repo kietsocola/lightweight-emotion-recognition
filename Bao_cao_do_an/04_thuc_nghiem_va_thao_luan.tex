@@ -247,11 +247,11 @@ Những kết quả này gợi ý rằng việc cải thiện mô hình có th�
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{5cm}cccc@{}}
 \toprule
 \textbf{Tên kiến trúc} & \textbf{Accuracy (\%)} & \textbf{F1-score (\%)} & \textbf{Time infer (ms)} & \textbf{Size (MB)} \\ \midrule
-MobileNetV3Small & 61.63 & 60 & 2.15 & 13.54 \\
+MobileNetV3Small & 61.63 & 60 & 2.15 & 9.37 \\
 ResNet18 & 67.23 & 67 & 3.44 & 42.73 \\
-MobileNetV3Small + FER2013 LLI & 58.86 & 58 & 2.10 & 13.54 \\
+MobileNetV3Small + FER2013 LLI & 58.86 & 58 & 2.10 & 9.59 \\
 ResNet18 + FER2013 LLI & 67.04 & 67 & 3.18 & 42.72 \\
-MobileNetV3Small + FER2013 LLI + adaptive augmentation & 61.55 & 60 & 2.12 & 13.54 \\
+MobileNetV3Small + FER2013 LLI + adaptive augmentation & 61.55 & 60 & 2.12 & 9.59 \\
 ResNet18 + FER2013 LLI + adaptive augmentation & 67.48 & 67 & 2.91 & 42.72 \\ \bottomrule
 \end{tabular}
 \label{tab:overall-results}
@@ -289,7 +289,7 @@ VGGNet~\cite{khaireddin2021} & 73.06 & - & - & 500+ \\
 InceptionV3~\cite{dada2023} & 63,21 & 63 & - & 200+ \\
 CNN10~\cite{dada2023} & 84.3 & 0.83 & - & - \\
 ResNet18 + FER2013 LLI + adaptive augmentation (chúng tôi thực nghiệm) & 67.48 & 67.0 & 2.91 & 42.72 \\
-\textbf{MobileNetV3-Small + FER2013 LLI + adaptive augmentation (đề xuất)} & 61.55 & 60.0 & 2.12 & 13.54 \\ \bottomrule
+\textbf{MobileNetV3-Small + FER2013 LLI + adaptive augmentation (đề xuất)} & 61.55 & 60.0 & 2.12 & 9.59 \\ \bottomrule
 \end{tabular}
 \end{table}
 
@@ -297,11 +297,11 @@ ResNet18 + FER2013 LLI + adaptive augmentation (chúng tôi thực nghiệm) & 6
 
 \begin{itemize}
     \item \textbf{Hiệu suất nhận diện}: VGGNet (73.06\%) và CNN10 (84.3\%) đạt độ chính xác cao hơn trong điều kiện ánh sáng thường trên FER-2013. Trong ánh sáng yếu (LLI), phương pháp đề xuất (MobileNetV3-Small + FER2013 LLI + adaptive augmentation) đạt 61.55\% (F1-score 60.0\%), cải thiện so với MobileNetV3-Small không tăng cường (58.86\%) và cạnh tranh với ResNet18 (67.48\%, F1-score 67.0\%).
-    \item \textbf{Thời gian và kích thước}: Phương pháp đề xuất có thời gian suy luận nhanh (2.12 ms) và kích thước nhỏ (13.54 MB), vượt trội so với ResNet18 (2.91 ms, 42.72 MB), VGGNet (500+ MB), và InceptionV3 (200+ MB), phù hợp cho thiết bị nhúng.
+    \item \textbf{Thời gian và kích thước}: Phương pháp đề xuất có thời gian suy luận nhanh (2.12 ms) và kích thước nhỏ (9.59 MB), vượt trội so với ResNet18 (2.91 ms, 42.72 MB), VGGNet (500+ MB), và InceptionV3 (200+ MB), phù hợp cho thiết bị nhúng.
     \item \textbf{Triển khai thực tế}: Pipeline tăng cường dữ liệu thích ứng (gamma correction, CLAHE) cải thiện độ bền trong ánh sáng yếu, tiết kiệm tài nguyên hơn các phương pháp GAN (800–1000 MB, 12–15 ms), lý tưởng cho camera giám sát và IoT.
 \end{itemize}
 
-\textbf{Kết luận}: Phương pháp đề xuất không vượt VGGNet hay CNN10 trong ánh sáng thường, nhưng trong ánh sáng yếu, nó cân bằng tối ưu giữa hiệu suất (61.55\%, F1-score 60.0\%), tốc độ (2.12 ms), và kích thước (13.54 MB). So với ResNet18, phương pháp này ưu việt hơn cho thiết bị tài nguyên thấp, khẳng định tính sáng tạo của pipeline tăng cường dữ liệu thích ứng cho các ứng dụng như camera giám sát và IoT.
+\textbf{Kết luận}: Phương pháp đề xuất không vượt VGGNet hay CNN10 trong ánh sáng thường, nhưng trong ánh sáng yếu, nó cân bằng tối ưu giữa hiệu suất (61.55\%, F1-score 60.0\%), tốc độ (2.12 ms), và kích thước (9.59 MB). So với ResNet18, phương pháp này ưu việt hơn cho thiết bị tài nguyên thấp, khẳng định tính sáng tạo của pipeline tăng cường dữ liệu thích ứng cho các ứng dụng như camera giám sát và IoT.
 
 \subsection{Nêu ý nghĩa thực tiễn của nghiên cứu}
 \begin{itemize}

@@ -50,9 +50,9 @@ Dựa trên hai thành phần lý thuyết đã trình bày, nghiên cứu đề
 \begin{itemize}[leftmargin=*]
     \item Chuyển ảnh sang ảnh grayscale.
     \item Tính độ sáng trung bình $\mu$.
-    \item Nếu $\mu < T_1$: áp dụng gamma correction với $\gamma \in [0.4, 0.5]$.
-    \item Nếu $T_1 < \mu < T_2$: áp dụng CLAHE.
-    \item Nếu $\mu > T_2$: giữ nguyên hoặc áp dụng contrast stretching nhẹ.
+    \item Nếu $\mu < T_1$: áp dụng gamma correction với $\gamma = 0.5$.
+    \item Nếu $T_1 < \mu < T_2$: áp dụng gamma correction với $\gamma = 0.8$.
+    \item Nếu $\mu > T_2$: áp dụng contrast stretching nhẹ.
 \end{itemize} \\
 \hline
 \textbf{Học biểu cảm} &
@@ -67,8 +67,9 @@ Dựa trên hai thành phần lý thuyết đã trình bày, nghiên cứu đề
     \item Sử dụng các chỉ số đánh giá:
     \begin{itemize}
         \item Accuracy
-        \item Precision / Recall
         \item F1-score
+        \item Time
+        \item Size
         \item Confusion Matrix
     \end{itemize}
     \item So sánh với baseline không áp dụng tăng cường để đánh giá hiệu quả thực sự.
@@ -77,7 +78,7 @@ Dựa trên hai thành phần lý thuyết đã trình bày, nghiên cứu đề
 \end{tabular}
 \end{table}
 
-Bảng~\ref{tab:pipeline} mô tả chi tiết \textbf{pipeline xử lý} được đề xuất trong nghiên cứu, bao gồm ba giai đoạn chính: \textit{tiền xử lý ảnh}, \textit{học biểu cảm}, và \textit{đánh giá mô hình}. Trong giai đoạn tiền xử lý, ảnh đầu vào được chuyển sang ảnh xám và điều chỉnh độ sáng hoặc tương phản dựa trên giá trị trung bình $\mu$ của ảnh. Tùy theo mức độ sáng, các kỹ thuật như gamma correction, CLAHE hoặc contrast stretching nhẹ sẽ được áp dụng nhằm cải thiện chất lượng ảnh đầu vào.
+Bảng~\ref{tab:pipeline} mô tả chi tiết \textbf{pipeline xử lý} được đề xuất trong nghiên cứu, bao gồm ba giai đoạn chính: \textit{tiền xử lý ảnh}, \textit{học biểu cảm}, và \textit{đánh giá mô hình}. Trong giai đoạn tiền xử lý, ảnh đầu vào được chuyển sang ảnh xám và điều chỉnh độ sáng hoặc tương phản dựa trên giá trị trung bình $\mu$ của ảnh. Tùy theo mức độ sáng, các kỹ thuật như gamma correction, contrast stretching sẽ được áp dụng nhằm cải thiện chất lượng ảnh đầu vào.
 
 Tiếp theo, giai đoạn học biểu cảm sử dụng mô hình \textit{MobileNetV3-Small} đã được tinh chỉnh (fine-tune) để phân loại bảy loại biểu cảm khuôn mặt phổ biến: vui, buồn, giận, sợ, bất ngờ, ghê tởm và trung tính.
 
@@ -99,7 +100,7 @@ Hình~\ref{fig:pineline} cho thấy pipeline đề xuất cho hệ thống nhậ
 \begin{itemize}
     \item Các mô hình học sâu, như CNN, cải thiện đáng kể độ chính xác nhận diện biểu cảm khuôn mặt (FER), đạt trên 70\% trên tập FER-2013 \cite{mollahosseini2016}.
     \item MobileNetV3 có hiệu suất cao, kích thước nhỏ (dưới 5MB) và tiết kiệm tài nguyên, phù hợp cho thiết bị nhúng \cite{howard2019, sandler2018}.
-    \item Kỹ thuật CLAHE tăng cường độ tương phản hiệu quả, dễ triển khai và ít tốn tài nguyên tính toán \cite{wang2020}.
+    \item Kỹ thuật tăng cường độ sáng hiệu quả, dễ triển khai và ít tốn tài nguyên tính toán.
 \end{itemize}
 
 \subsubsection{Hạn chế}
