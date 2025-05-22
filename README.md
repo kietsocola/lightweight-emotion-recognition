@@ -131,7 +131,7 @@ Output: Ảnh đã tiền xử lý và nhãn biểu cảm
 |                  **Ma trận nhầm lẫn MobileNetV3**                  |                **Ma trận nhầm lẫn ResNet18**                |
 
 - **Ma trận nhầm lẫn**:
-  - **MobileNetV3-Small**: Biểu cảm "Happy" (95.4%) và "Surprise" (86.48%) đạt độ chính xác cao, nhưng "Disgust", "Fear", và "Sad" dễ bị nhầm lẫn (ví dụ: Disgust → Angry, Fear → Neutral/Sad).
+  - **MobileNetV3-Small**: Biểu cảm "Happy" (84.2%) và "Surprise" (72.3%) đạt độ chính xác cao, nhưng "Disgust", "Fear", và "Sad" dễ bị nhầm lẫn (ví dụ: Disgust → Angry, Fear → Neutral/Sad).
   - **ResNet18**: Hiệu suất tốt hơn với "Happy" (85.25%) và "Surprise" (78.80%), nhưng vẫn gặp khó khăn với các biểu cảm tiêu cực.
 
 ### 4. So sánh với nghiên cứu trước
