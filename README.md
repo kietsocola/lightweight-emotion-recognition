@@ -231,7 +231,7 @@ Mọi vấn đề về kế hoạch thực nghiệm cho dự án cuối môn đ�
 
 | Họ và tên           | Email                                                | GitHub                                                  | Website cá nhân                                                         |
 | ---------------------- | ---------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Nguyễn Hữu Lộc      | [lockbkbang@gmail.com](mailto:lockbkbang@gmail.com)     | [github.com/LocNguyenSGU](https://github.com/LocNguyenSGU) | [http://locnguyensguportfolio.store](http://locnguyensguportfolio.store)     |
+| Nguyễn Hữu Lộc      | [lockbkbang@gmail.com](mailto:lockbkbang@gmail.com)     | [github.com/LocNguyenSGU](https://github.com/LocNguyenSGU) | [http://locnguyensguportfolio.store](locnguyensguportfolio.store/)     |
 | Nguyễn Đức Duy Lâm | [duylam468213@gmail.com](mailto:duylam468213@gmail.com) | [github.com/duylam15](https://github.com/duylam15)         | [porfolio-cyan-nine.vercel.app](https://porfolio-cyan-nine.vercel.app/)      |
 | Mai Phúc Lâm         | [lamkbvn@gmail.com](mailto:lamkbvn@gmail.com)           | [github.com/lamkbvn](https://github.com/lamkbvn)           | [lamkbvn.github.io/trang-ca-nhan/](https://lamkbvn.github.io/trang-ca-nhan/) |
 | Văn Tuấn Kiệt    | [vankiet27012004@gmail.com](mailto:vankiet27012004@gmail.com)         | [github.com/kietsocola](https://github.com/kietsocola)       | [kietsocola.github.io/kietsocola/](https://kietsocola.github.io/kietsocola/)                                                           |
